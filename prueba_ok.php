@@ -29,7 +29,7 @@ function getIp(): string
 $remote_ip = getIp();
 
 // Lista de IPs permitidas (IPv4 e IPv6)
-$allowed_ips = array("186.10.5.69");
+$allowed_ips = array("164.77.174.26");
 
 // Abrir o crear un archivo de registro para escritura (modo append)
 $log_file = fopen("log.txt", "a");
