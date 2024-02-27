@@ -299,3 +299,69 @@ El usuario especificado no existe en el equipo remoto.
 [2024-02-27 13:53:56] Acceso permitido para la IP: ::1
 Se ha generado una contraseña aleatoria (N85iWbBDTw) para el usuario 123.
 Cambio de contraseña realizado con éxito para el usuario "123".
+[2024-02-27 16:23:02] Acceso no autorizado para la IP: ::1
+[2024-02-27 16:24:05] Acceso no autorizado para la IP: ::1
+2024-02-27 16:31:19 - Cambio de contraseña para usuario 'lala'. Resultado: 
+2024-02-27 16:31:27 - Cambio de contraseña para usuario 'lala'. Resultado: 
+2024-02-27 16:31:53 - Cambio de contraseña para usuario 'lala'. Resultado: 
+2024-02-27 16:32:27 - Cambio de contraseña para usuario 'lala'. Resultado: 
+2024-02-27 16:34:37 - Cambio de contraseña para usuario 'lala'. Resultado: 
+2024-02-27 16:45:20 - Cambio de contraseña para usuario 'lala'. Resultado: 
+[2024-02-27 16:45:23] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-27 16:45:25] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-27 16:45:28] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-27 16:45:30] Acceso no autorizado para la IP: 192.168.5.1
+2024-02-27 16:48:47 - Cambio de contraseña para usuario 'lala'. Resultado: 
+[2024-02-27 16:57:13] Acceso permitido para la IP: ::1
+Se ha generado una contraseña aleatoria (7zQhq9Jevk) para el usuario .
+Todos los campos son obligatorios.
+[2024-02-27 16:57:24] Acceso permitido para la IP: ::1
+Se ha generado una contraseña aleatoria (x9hbOzioR6) para el usuario .
+Todos los campos son obligatorios.
+[2024-02-27 16:57:51] Acceso no autorizado para la IP: ::1
+[2024-02-27 17:14:07] Acceso no autorizado para la IP: ::1
+[2024-02-27 17:18:31] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 17:19:07] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 17:20:05] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 17:28:01] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 17:28:22] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 17:32:15] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 17:32:35] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 17:32:56] Acceso permitido para la IP: 186.10.5.69
+Se ha generado una contraseña aleatoria (2YZPzj7MqD) para el usuario lala.
+Todos los campos son obligatorios.
+[2024-02-27 17:33:25] Acceso permitido para la IP: 186.10.5.69
+Se ha generado una contraseña aleatoria (TCH8g57LZB) para el usuario lala.
+Todos los campos son obligatorios.
+[2024-02-27 17:33:44] Acceso permitido para la IP: 186.10.5.69
+Se ha generado una contraseña aleatoria (AiZGw1glcx) para el usuario lala.
+Ocurrió un error al cambiar la contraseña.
+[2024-02-27 17:54:06] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 17:54:27] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 17:54:35] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 17:55:45] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 17:56:37] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 17:57:02] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 17:57:17] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 17:58:18] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 18:00:19] Acceso no autorizado para la IP: 164.77.174.26
+[2024-02-27 18:00:48] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 18:04:20] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 18:04:59] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-27 18:05:38] Acceso permitido para la IP: 186.10.5.69
+Se ha generado una contraseña aleatoria (Z1bChYDcNz) para el usuario lala.
+Ocurrió un error al cambiar la contraseña.
+[2024-02-27 18:06:18] Acceso permitido para la IP: 186.10.5.69
+Se ha generado una contraseña aleatoria (yMtn4UbCNh) para el usuario lala.
+Ocurrió un error al cambiar la contraseña.
+[2024-02-27 19:50:59] Acceso permitido para la IP: 186.10.5.69
+Se ha generado una contraseña aleatoria (Dam8nJnxra) para el usuario lala.
+Ocurrió un error al cambiar la contraseña.
+[2024-02-27 19:51:46] Acceso permitido para la IP: 186.10.5.69
+Se ha generado una contraseña aleatoria (QVos3leww7) para el usuario lala.
+Ocurrió un error al cambiar la contraseña.
+[2024-02-27 19:52:43] Acceso no autorizado para la IP: 164.77.174.26
+[2024-02-27 19:52:52] Acceso no autorizado para la IP: 164.77.174.26
+[2024-02-27 19:52:58] Acceso no autorizado para la IP: 164.77.174.26
+[2024-02-27 19:53:17] Acceso no autorizado para la IP: 164.77.174.26
+[2024-02-27 19:54:08] Acceso no autorizado para la IP: 164.77.174.26

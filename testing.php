@@ -1,37 +1,55 @@
 <?php
-// Parámetros
-$admin_user = "tu_usuario_administrador";
-$admin_pass = "tu_contraseña_administrador";
-$host = "https://vps06.xhost.cl:8443"; // Reemplaza con el nombre de host
-$target_user = "lala";
+// Datos de acceso a la máquina remota
+$host = 'vps06.xhost.cl'; // Host de la máquina
+$port = 8443; // Puerto (generalmente 8443 para HTTPS)
 
-// Generar una contraseña aleatoria y segura
-$new_pass = generateRandomPassword();
+// Verificar si el host de destino es el correcto
+if ($host === 'vps06.xhost.cl' && $port === 8443) {
+    // El host y el puerto son correctos, permitir que el script continúe
 
-// Construir el comando de PowerShell
-$command = "powershell -Command \"";
-$command .= "\$securePass = ConvertTo-SecureString -String $admin_pass -AsPlainText -Force; ";
-$command .= "\$cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $admin_user, \$securePass; ";
-$command .= "if(Get-LocalUser -Name $target_user -ErrorAction SilentlyContinue) { ";
-$command .= "Set-LocalUser -Name $target_user -Password (ConvertTo-SecureString -AsPlainText $new_pass -Force); ";
-$command .= "echo 'true'; ";
-$command .= "} else { echo 'false'; } ";
-$command .= "\"";
+    // Datos de acceso a la máquina remota
+    $username = 'jrami'; // Usuario con acceso
+    $password = '1234'; // Contraseña del usuario
 
-// Ejecutar el comando en el servidor
-$result = shell_exec($command);
+    // Datos del usuario cuya contraseña deseas cambiar
+    $targetUser = 'lala'; // Nombre del usuario
+    $newPass = generateRandomPassword(); // Generar una contraseña aleatoria
 
-// Mostrar el resultado del cambio
-if (trim($result) === "true") {
-    echo "La contraseña del usuario $target_user se ha cambiado correctamente. La nueva contraseña es: $new_pass";
+    // Construir el comando para cambiar la contraseña
+    $command = "powershell -Command \"";
+    $command .= "\$securePass = ConvertTo-SecureString -String '$newPass' -AsPlainText -Force; ";
+    $command .= "\$cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList '$username', \$securePass; ";
+    $command .= "Invoke-Command -ComputerName '$host' -Credential \$cred -ScriptBlock { ";
+    $command .= "param(\$targetUser, \$newPass); ";
+    $command .= "if(Get-LocalUser -Name \$targetUser -ErrorAction SilentlyContinue) { ";
+    $command .= "Set-LocalUser -Name \$targetUser -Password (ConvertTo-SecureString -AsPlainText \$newPass -Force); ";
+    $command .= "echo 'true'; ";
+    $command .= "} else { echo 'false'; } ";
+    $command .= "} -ArgumentList '$targetUser', '$newPass'; ";
+    $command .= "\"";
+
+    // Ejecutar el comando de PowerShell y obtener la salida
+    $output = shell_exec($command);
+
+    // Registrar eventos en el archivo de registro
+    $logMessage = date('Y-m-d H:i:s') . " - Cambio de contraseña para usuario '$targetUser'. Resultado: $output\n";
+    file_put_contents('log.txt', $logMessage, FILE_APPEND);
+
+    // Mostrar el resultado
+    if (trim($output) === 'true') {
+        echo "Contraseña cambiada correctamente. Nueva contraseña: $newPass";
+    } else {
+        echo "Error: No se pudo cambiar la contraseña.";
+    }
 } else {
-    echo "El usuario $target_user no existe en la máquina remota.";
+    // El host o el puerto no son los esperados, mostrar un mensaje de error
+    echo "Error: El host o el puerto no son válidos.";
 }
 
-// Función para generar una contraseña aleatoria y segura
+// Función para generar una contraseña aleatoria
 function generateRandomPassword($length = 12)
 {
-    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+';
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $password = '';
     for ($i = 0; $i < $length; $i++) {
         $password .= $characters[rand(0, strlen($characters) - 1)];

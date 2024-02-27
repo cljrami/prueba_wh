@@ -1,11 +1,35 @@
 <?php
+function getIp(): string
+{
+    if (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) { // Soporte de Cloudflare
+        $ip = $_SERVER['HTTP_CF_CONNECTING_IP'];
+    } elseif (isset($_SERVER['164.77.174.26']) === true) {
+        $ip = $_SERVER['164.77.174.26'];
+        if (preg_match('/^(?:127|10)\.0\.0\.[12]?\d{1,2}$/', $ip)) {
+            if (isset($_SERVER['HTTP_X_REAL_IP'])) {
+                $ip = $_SERVER['HTTP_X_REAL_IP'];
+            } elseif (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+                $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+            }
+        }
+    } else {
+        $ip = '164.77.174.26';
+    }
+    if (in_array($ip, ['::1', '0.0.0.0', 'localhost'], true)) {
+        $ip = '164.77.174.26';
+    }
+    $filter = filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4);
+    if ($filter === false) {
+        $ip = '164.77.174.26';
+    }
 
-
-// Obtener la IP remota del cliente a través del encabezado X-Forwarded-For
-$remote_ip = $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'];
+    return $ip;
+}
+// Obtener la IP remota del cliente utilizando la función getIp()
+$remote_ip = getIp();
 
 // Lista de IPs permitidas (IPv4 e IPv6)
-$allowed_ips = array("192.168.5.156", "::1");
+$allowed_ips = array("186.10.5.69");
 
 // Abrir o crear un archivo de registro para escritura (modo append)
 $log_file = fopen("log.txt", "a");
