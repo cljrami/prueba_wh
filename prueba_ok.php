@@ -40,18 +40,29 @@ $log_file = fopen("log.txt", "a");
 
 // Registrar la fecha y hora de la solicitud
 $log_entry = "------INICIO ACCION [" . date('Y-m-d H:i:s') . "]------\n ";
+$log_entry .= "IP Remota del Cliente: $remote_ip\n";
 
 // Verificar si la IP remota está en la lista blanca de IPs permitidas
 if (in_array($remote_ip, $allowed_ips)) {
     // La IP del cliente está permitida, permitir que el resto del código se ejecute
 
+    $log_entry .= "Acceso permitido para la IP: $remote_ip\n";
+
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Recibir los datos del formulario HTML
         $admin_user = $_POST["admin_user"] ?? '';
         $admin_pass = $_POST["admin_pass"] ?? '';
-        $ip = $_POST["ip"] ?? '';
+        $ip = $_POST["ip_destino"] ?? '';
         $target_user = $_POST["target_user"] ?? '';
         $user_pass = $_POST["user_pass"] ?? ''; // Nueva variable para la contraseña del usuario
+
+        // Detalles del formulario recibido
+        $log_entry .= "Datos del Formulario:\n";
+        $log_entry .= "  Usuario Administrador: $admin_user\n";
+        $log_entry .= "  Contraseña Administrador: $admin_pass\n";
+        $log_entry .= "  IP del Equipo Remoto: $ip\n";
+        $log_entry .= "  Usuario Objetivo: $target_user\n";
+        $log_entry .= "  Nueva Contraseña Usuario: $user_pass\n";
 
         // Verificar si los campos requeridos no están vacíos
         if (!empty($admin_user) && !empty($admin_pass) && !empty($ip) && !empty($target_user) && !empty($user_pass)) {
@@ -84,39 +95,31 @@ if (in_array($remote_ip, $allowed_ips)) {
 
             // Verificar si el cambio de contraseña fue exitoso
             if (trim($output) === 'true') {
-                $log_entry .= "Cambio de contraseña realizado con éxito para el usuario 
-                $target_user.\n";
-                $log_entry .= "Desde $remote_ip\n";
-                $log_entry .= "En la IP: $ip\n";
-                $log_entry .= "Usuario administrador: $admin_user\n";
-                $log_entry .= "Admin Password: $admin_user\n";
-                $log_entry .= "Nueva contraseña para el usuario $target_user: $user_pass\n";
-                $log_entry .= "---------- FIN ACCION ----------\n\n"; // Fecha y hora del cambio realizado
-                fwrite($log_file, $log_entry);
+                $log_entry .= "Cambio de contraseña realizado con éxito para el usuario $target_user.\n";
                 echo '<script type="text/javascript">';
                 echo 'alert("Cambio de contraseña realizado con éxito. La nueva contraseña es: ' . $user_pass . '");'; // Usar $user_pass en lugar de $new_pass
                 echo '</script>';
             } elseif (trim($output) === 'false') {
                 $log_entry .= "El usuario especificado no existe en el equipo remoto.\n";
-                fwrite($log_file, $log_entry);
                 echo "El usuario especificado no existe en el equipo remoto.";
             } else {
                 $log_entry .= "Ocurrió un error al cambiar la contraseña.\n";
-                fwrite($log_file, $log_entry);
                 echo "Ocurrió un error al cambiar la contraseña.";
             }
         } else {
             $log_entry .= "Todos los campos son obligatorios.\n";
-            fwrite($log_file, $log_entry);
             echo "Todos los campos son obligatorios.";
         }
     }
 } else {
     // La IP del cliente no está en la lista blanca, negar el acceso
     $log_entry .= "Acceso no autorizado para la IP: $remote_ip\n";
-    fwrite($log_file, $log_entry);
     echo "Acceso no autorizado para la IP: $remote_ip";
 }
+
+// Registrar toda la acción en el archivo de registro
+$log_entry .= "---------- FIN ACCION ----------\n\n";
+fwrite($log_file, $log_entry);
 
 // Cerrar el archivo de registro
 fclose($log_file);
