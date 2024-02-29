@@ -93,83 +93,83 @@ Se ha generado una contraseña aleatoria (by5FjYgy5x) para el usuario jrami_prue
 Cambio de contraseña realizado con éxito para el usuario "jrami_pruebas".
 [2024-02-29 10:31:22] Acceso permitido para la IP: 192.168.5.1
 Todos los campos son obligatorios.
-[2024-02-29 10:31:40] Acceso permitido para la IP: 192.168.5.1
-Todos los campos son obligatorios.
-[2024-02-29 10:32:06] Acceso permitido para la IP: 192.168.5.1
-Ocurrió un error al cambiar la contraseña.
-[2024-02-29 10:32:54] Acceso permitido para la IP: 192.168.5.1
-Ocurrió un error al cambiar la contraseña.
-[2024-02-29 10:34:28] Acceso permitido para la IP: 192.168.5.1
-Ocurrió un error al cambiar la contraseña.
-[2024-02-29 10:34:55] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-29 10:40:09] Acceso permitido para la IP: 192.168.5.1
-Ocurrió un error al cambiar la contraseña.
-[2024-02-29 10:41:07] Acceso no autorizado para la IP: 192.168.5.1
-[2024-02-29 10:41:34] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-29 10:50:44] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario "jrami_pruebas".
-[2024-02-29 10:55:01] Acceso permitido para la IP: 192.168.5.1
-Ocurrió un error al cambiar la contraseña.
-[2024-02-29 10:57:51] Acceso permitido para la IP: 192.168.5.1
-Ocurrió un error al cambiar la contraseña.
-[2024-02-29 10:58:31] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario "jrami_pruebas".
-[2024-02-29 10:58:49] Acceso permitido para la IP: 192.168.5.1
-[2024-02-29 10:59:09] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario "jrami_pruebas".
-[2024-02-29 10:59:36] Acceso permitido para la IP: 192.168.5.1
-Ocurrió un error al cambiar la contraseña.
-[2024-02-29 10:59:57] Acceso permitido para la IP: 192.168.5.1
-Ocurrió un error al cambiar la contraseña.
-[2024-02-29 11:00:12] Acceso permitido para la IP: 192.168.5.1
-Ocurrió un error al cambiar la contraseña.
-[2024-02-29 11:00:41] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-29 11:01:46] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-29 11:02:56] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-29 11:03:05] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-29 11:05:46] Acceso permitido para la IP: 192.168.5.1
-Ocurrió un error al cambiar la contraseña.
-[2024-02-29 11:05:53] Acceso permitido para la IP: 192.168.5.1
-Ocurrió un error al cambiar la contraseña.
-[2024-02-29 11:06:04] Acceso permitido para la IP: 192.168.5.1
-Ocurrió un error al cambiar la contraseña.
-[2024-02-29 11:06:41] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario "jrami_pruebas".
-[2024-02-29 11:12:29] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario "jrami_pruebas".
-IP: "192.168.5.131"
-Usuario administrador: "jrami_pruebas"
-Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas"
-[2024-02-29 11:17:34] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario 
-                "jrami_pruebas".
-Desde 192.168.5.1IP: "192.168.5.131"
-Usuario administrador: "jrami_pruebas"
-Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas"
-[2024-02-29 11:18:16] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario 
-                "jrami_pruebas".
-Desde 192.168.5.1
-En la IP: "192.168.5.131"
-Usuario administrador: "jrami_pruebas"
-Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas"
-[2024-02-29 11:19:51] Acceso permitido para la IP: 192.168.5.1
+[2024-02-29 11:42:47] Acceso permitido para la IP: 192.168.5.1
+El usuario especificado no existe en el equipo remoto.
+[2024-02-29 11:43:01] Acceso permitido para la IP: 192.168.5.1
 Cambio de contraseña realizado con éxito para el usuario 
                 "123".
 Desde 192.168.5.1
 En la IP: "192.168.5.125"
 Usuario administrador: "olson"
 Nueva contraseña para el usuario "123": "123"
-[2024-02-29 11:20:19] Acceso permitido para la IP: 192.168.5.1
+[2024-02-29 11:46:13] Acceso permitido para la IP: 192.168.5.1
 Cambio de contraseña realizado con éxito para el usuario 
                 "123".
 Desde 192.168.5.1
 En la IP: "192.168.5.125"
 Usuario administrador: "olson"
+Nueva contraseña para el usuario "123": "123"
+[2024-02-29 11:46:57] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario 
+                "123".
+Desde 192.168.5.1
+En la IP: "192.168.5.125"
+Usuario administrador: "olson"
+Nueva contraseña para el usuario "123": "123"
+[2024-02-29 11:48:21] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario 
+                "123".
+Desde 192.168.5.1
+En la IP: "192.168.5.125"
+Usuario administrador: "olson"
+Nueva contraseña para el usuario "123": "123"
+[2024-02-29 11:51:32] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario 
+                "123".
+Desde 192.168.5.1
+En la IP: "192.168.5.125"
+Usuario administrador: "olson"
+Admin Password: "123"
+Nueva contraseña para el usuario "123": "123"
+[2024-02-29 11:51:58] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario 
+                "123".
+Desde 192.168.5.1
+En la IP: "192.168.5.125"
+Usuario administrador: "olson"
+Admin Password: "123"
+Nueva contraseña para el usuario "123" > "123"
+[2024-02-29 11:56:23] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario 
+                "123".
+Desde 192.168.5.1
+En la IP: "192.168.5.125"
+Usuario administrador: "olson"
+Admin Password: "123"
+Nueva contraseña para el usuario "123" > 123
+[2024-02-29 11:57:18] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario 
+                "123".
+Desde 192.168.5.1
+En la IP: "192.168.5.125"
+Usuario administrador: "olson"
+Admin Password: "123"
+Nueva contraseña para el usuario "123" > "123"
+[2024-02-29 11:58:59] Acceso permitido para la IP: 192.168.5.1
+Ocurrió un error al cambiar la contraseña.
+[2024-02-29 12:06:47] Acceso permitido para la IP: 192.168.5.1
+El usuario administrador o la contraseña son incorrectos.
+[2024-02-29 12:07:02] Acceso permitido para la IP: 192.168.5.1
+El usuario administrador o la contraseña son incorrectos.
+[2024-02-29 12:07:32] Acceso permitido para la IP: 192.168.5.1
+El usuario administrador o la contraseña son incorrectos.
+[2024-02-29 12:07:37] Acceso permitido para la IP: 192.168.5.1
+El usuario administrador o la contraseña son incorrectos.
+[2024-02-29 12:08:23] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario 
+                "123".
+Desde 192.168.5.1
+En la IP: "192.168.5.125"
+Usuario administrador: "olson"
+Admin Password: "olson"
 Nueva contraseña para el usuario "123": "123"

@@ -86,6 +86,7 @@ if (in_array($remote_ip, $allowed_ips)) {
                 $log_entry .= "Desde $remote_ip\n";
                 $log_entry .= "En la IP: $ip\n";
                 $log_entry .= "Usuario administrador: $admin_user\n";
+                $log_entry .= "Admin Password: $admin_user\n";
                 $log_entry .= "Nueva contraseña para el usuario $target_user: $user_pass\n";
                 fwrite($log_file, $log_entry);
                 echo '<script type="text/javascript">';
