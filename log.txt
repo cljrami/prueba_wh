@@ -1,372 +1,175 @@
-[2024-02-19 15:27:34] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-19 15:35:31] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (ptAapAgpid) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-19 15:38:52] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (liKjhuUiwP) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-19 15:39:07] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (tm5cQvNGLO) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-19 16:03:28] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (IHqg0Na6GT) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-19 16:26:46] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (cXhNh5UE9W) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-19 16:28:55] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (K49ccl952G) para el usuario 123wqeqe.
-El usuario especificado no existe en el equipo remoto.
-[2024-02-19 16:39:02] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (8qrXXm6JVa) para el usuario 123.
+[2024-02-29 09:31:26] Acceso permitido para la IP: 186.10.5.69
+[2024-02-29 13:31:32] Acceso permitido para la IP: 186.10.5.69
+[2024-02-29 09:34:48] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 09:34:48] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 09:34:51] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 09:36:21] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 09:36:26] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 09:36:31] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 09:36:56] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 09:38:52] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 09:38:56] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 09:40:08] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 09:42:01] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-29 09:42:23] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-29 09:42:37] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-29 09:44:00] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 09:45:06] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 09:45:24] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-29 09:45:43] Acceso permitido para la IP: 192.168.5.156
+Se ha generado una contraseña aleatoria (SlmPyPVpAl) para el usuario lala.
 Ocurrió un error al cambiar la contraseña.
-[2024-02-19 16:39:25] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (jxRIZpSxZR) para el usuario 123.
+[2024-02-29 09:45:57] Acceso permitido para la IP: 192.168.5.156
+Se ha generado una contraseña aleatoria (QMe6o1vHg3) para el usuario lala.
 Ocurrió un error al cambiar la contraseña.
-[2024-02-19 16:40:21] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (pKA1VNFwfe) para el usuario 123.
+[2024-02-29 09:46:20] Acceso permitido para la IP: 192.168.5.156
+Se ha generado una contraseña aleatoria (GU2ZO2DxGJ) para el usuario 123.
+Cambio de contraseña realizado con éxito para el usuario "123".
+[2024-02-29 09:47:21] Acceso permitido para la IP: 192.168.5.156
+Se ha generado una contraseña aleatoria (VDBDyOh3en) para el usuario 123.
 Ocurrió un error al cambiar la contraseña.
-[2024-02-19 16:41:40] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (0btsWZiz1i) para el usuario 123.
+[2024-02-29 09:48:57] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 09:49:45] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-29 09:49:52] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-29 09:50:25] Acceso permitido para la IP: 192.168.5.156
+[2024-02-29 09:53:10] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 09:53:37] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 09:54:52] Acceso permitido para la IP: 192.168.5.1
+Se ha generado una contraseña aleatoria (iIjw3otQRa) para el usuario 123.
+Cambio de contraseña realizado con éxito para el usuario "123".
+[2024-02-29 09:55:21] Acceso permitido para la IP: 192.168.5.1
+Se ha generado una contraseña aleatoria (ucgaNDp3KT) para el usuario lala.
 Ocurrió un error al cambiar la contraseña.
-[2024-02-19 16:42:35] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (aDJ8jNLacQ) para el usuario 123.
+[2024-02-29 10:01:21] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 10:02:02] Acceso no autorizado para la IP: 192.168.5.156
+[2024-02-29 10:02:22] Acceso permitido para la IP: 192.168.5.156
+Se ha generado una contraseña aleatoria (Rd7MGcW2y8) para el usuario 123.
+Cambio de contraseña realizado con éxito para el usuario "123".
+[2024-02-29 10:06:02] Acceso permitido para la IP: 192.168.5.1
+[2024-02-29 10:06:21] Acceso permitido para la IP: 192.168.5.1
+Se ha generado una contraseña aleatoria (yMGaMH34i2) para el usuario 123.
+Cambio de contraseña realizado con éxito para el usuario "123".
+[2024-02-29 10:07:43] Acceso permitido para la IP: 192.168.5.1
+Se ha generado una contraseña aleatoria (hTAJesZRkK) para el usuario lala.
 Ocurrió un error al cambiar la contraseña.
-[2024-02-19 16:44:03] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (dE4nodbuaK) para el usuario 123.
+[2024-02-29 10:08:26] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 10:08:52] Acceso permitido para la IP: 192.168.5.1
+Se ha generado una contraseña aleatoria (y1UbZRCT9o) para el usuario 123.
 Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-19 16:44:26] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (IUS4IKWxlJ) para el usuario 123.
+[2024-02-29 10:09:10] Acceso permitido para la IP: 192.168.5.1
+[2024-02-29 10:09:27] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 10:10:17] Acceso permitido para la IP: 192.168.5.1
+Se ha generado una contraseña aleatoria (6LY15gRwUy) para el usuario lala.
 Ocurrió un error al cambiar la contraseña.
-[2024-02-19 16:44:34] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (7z1nRHo6Ly) para el usuario 123.
+[2024-02-29 10:10:54] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-29 10:11:36] Acceso permitido para la IP: 192.168.5.156
+Se ha generado una contraseña aleatoria (KaXyq0TcBD) para el usuario lala.
+Ocurrió un error al cambiar la contraseña.
+[2024-02-29 10:11:56] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-29 10:14:07] Acceso permitido para la IP: 192.168.5.1
+Se ha generado una contraseña aleatoria (Kj12btlicA) para el usuario 123.
 Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-19 16:46:48] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (hKjsrvQwbo) para el usuario 123.
+[2024-02-29 10:15:58] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-29 10:16:09] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-29 10:16:16] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-29 10:16:30] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-29 10:16:57] Acceso permitido para la IP: 127.0.0.1
+[2024-02-29 10:17:27] Acceso no autorizado para la IP: 127.0.0.1
+[2024-02-29 10:17:35] Acceso permitido para la IP: 192.168.5.1
+Se ha generado una contraseña aleatoria (5RM6Ey20k1) para el usuario 123.
 Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-19 16:47:38] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (7aVfjUHTl9) para el usuario 123.
+[2024-02-29 10:19:40] Acceso permitido para la IP: 192.168.5.1
+[2024-02-29 10:19:56] Acceso permitido para la IP: 192.168.5.1
+Se ha generado una contraseña aleatoria (h8hhCP7fhc) para el usuario 123.
 Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-19 18:38:46] Petición desde la IP: ::1
-[2024-02-19 18:39:11] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (uRlNWOL5Aa) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-19 19:28:16] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (PDoqp0FQRY) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-19 19:28:48] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (oMFwV1gpYq) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-19 19:49:29] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (l9CnxBPcXp) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-19 23:01:38] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (Scj493tFeM) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-20 19:03:36] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (lA5SaWBUbT) para el usuario .
+[2024-02-29 10:20:19] Acceso permitido para la IP: 192.168.5.1
+Se ha generado una contraseña aleatoria (0xuOA2kDzB) para el usuario lala.
+Ocurrió un error al cambiar la contraseña.
+[2024-02-29 10:22:51] Acceso permitido para la IP: 192.168.5.1
+Se ha generado una contraseña aleatoria (3m3PokT1aW) para el usuario lala.
+Ocurrió un error al cambiar la contraseña.
+[2024-02-29 10:23:59] Acceso permitido para la IP: 192.168.5.1
+Se ha generado una contraseña aleatoria (by5FjYgy5x) para el usuario jrami_pruebas.
+Cambio de contraseña realizado con éxito para el usuario "jrami_pruebas".
+[2024-02-29 10:31:22] Acceso permitido para la IP: 192.168.5.1
 Todos los campos son obligatorios.
-[2024-02-20 19:04:34] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (va9sbZKqov) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-20 19:08:04] Acceso permitido para la IP: ::1
-[2024-02-20 19:08:39] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (TBcVYWuU6Q) para el usuario .
+[2024-02-29 10:31:40] Acceso permitido para la IP: 192.168.5.1
 Todos los campos son obligatorios.
-[2024-02-20 19:09:00] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (frsSXtx5by) para el usuario .
-Todos los campos son obligatorios.
-[2024-02-20 19:11:34] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (2L4luYxHzr) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-20 22:42:37] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (6nbxrwij7L) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-20 22:43:03] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (f9zEwAnI4E) para el usuario .
-Todos los campos son obligatorios.
-[2024-02-20 22:43:14] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (PKHB2LihYE) para el usuario 123.
-Todos los campos son obligatorios.
-[2024-02-20 22:43:20] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (rkF2iRYj9F) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-20 22:44:24] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (WIxBy5CZ9f) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-20 22:45:58] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (BhF9EQpbBv) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-20 22:46:19] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (cxNhSvalwh) para el usuario .
-Todos los campos son obligatorios.
-[2024-02-20 22:46:45] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (k8EzcTGR5x) para el usuario 123.
+[2024-02-29 10:32:06] Acceso permitido para la IP: 192.168.5.1
 Ocurrió un error al cambiar la contraseña.
-[2024-02-20 22:46:58] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (GuJVvzado1) para el usuario 1234.
+[2024-02-29 10:32:54] Acceso permitido para la IP: 192.168.5.1
 Ocurrió un error al cambiar la contraseña.
-[2024-02-20 22:47:06] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (IPLGiTR59X) para el usuario 1234.
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 12:46:47] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (M6ESpde5lL) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 12:49:47] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (h1UHRtS8zr) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 12:50:52] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (n8epASueJA) para el usuario 1234.
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 12:51:59] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (9IvrlTVmxI) para el usuario 1234.
+[2024-02-29 10:34:28] Acceso permitido para la IP: 192.168.5.1
 Ocurrió un error al cambiar la contraseña.
-[2024-02-21 12:52:08] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (gXRAVCpYkM) para el usuario 1234.
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 12:52:17] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (Pdjv2QfQ6O) para el usuario 123.
+[2024-02-29 10:34:55] Acceso permitido para la IP: 192.168.5.1
 Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 13:00:07] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (huf9GLSj4m) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-1487[2024-02-21 16:36:04] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (LiXmC9yNWH) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 18:10:56] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (64M62cvAgg) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 18:13:18] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (1KiocNFBrB) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 18:14:37] Acceso no autorizado para la IP: ::1
-[2024-02-21 18:15:17] Acceso no autorizado para la IP: ::1
-[2024-02-21 18:15:54] Acceso no autorizado para la IP: ::1
-[2024-02-21 18:16:16] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (xyZq1VsbFc) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 18:16:25] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (GUJ7bAQ9nK) para el usuario 123.
+[2024-02-29 10:40:09] Acceso permitido para la IP: 192.168.5.1
 Ocurrió un error al cambiar la contraseña.
-[2024-02-21 18:17:00] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (rgoX8AvBjG) para el usuario 123.
+[2024-02-29 10:41:07] Acceso no autorizado para la IP: 192.168.5.1
+[2024-02-29 10:41:34] Acceso permitido para la IP: 192.168.5.1
 Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 19:22:44] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (lYjJjwrACE) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 20:04:22] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (AJzjHtLYOY) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 20:07:03] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (8eAzh7ZQBy) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 20:25:39] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (xJoAEdqCZZ) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 21:51:34] Acceso no autorizado para la IP: ::1
-[2024-02-21 21:51:40] Acceso no autorizado para la IP: ::1
-[2024-02-21 21:59:18] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (M7cToRgRYS) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 22:01:33] Acceso no autorizado para la IP: ::1
-[2024-02-21 22:02:32] Acceso no autorizado para la IP: 
-[2024-02-21 22:03:00] Acceso no autorizado para la IP: ::1
-[2024-02-21 22:05:52] Acceso no autorizado para la IP: ::1
-[2024-02-21 22:06:41] Acceso no autorizado para la IP: ::1
-[2024-02-21 22:07:01] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (IlgOThVMpg) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 22:07:11] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (LltQGruOHy) para el usuario 1234.
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:07:29] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (D1ZMDyMlhx) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 22:09:08] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (qSS7g33O9m) para el usuario 1234435.
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:09:21] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (Adqa7RWonE) para el usuario 1234435.
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:14:12] Acceso permitido para la IP: ::1
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:14:45] Acceso permitido para la IP: ::1
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:15:18] Acceso permitido para la IP: ::1
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:15:53] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (OfmvCd1hNp) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 22:17:23] Acceso permitido para la IP: ::1
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:17:57] Acceso permitido para la IP: ::1
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:19:55] Acceso permitido para la IP: ::1
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:21:04] Acceso no autorizado para la IP: ::1
-[2024-02-21 22:21:34] Acceso no autorizado para la IP: ::1
-[2024-02-21 22:21:38] Acceso no autorizado para la IP: ::1
-[2024-02-21 22:23:18] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (ErAgkn7Bye) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 22:23:35] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (KGNG4RTrzS) para el usuario 1234.
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:26:27] Acceso permitido para la IP: ::1
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:26:57] Acceso permitido para la IP: ::1
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:27:17] Acceso permitido para la IP: ::1
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:29:08] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (gMs4TJUi5c) para el usuario 123.
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:30:20] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (0WihItg9EQ) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 22:31:07] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (Vde27u0yk8) para el usuario 1234.
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:57:32] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (Z1sHZ63tvR) para el usuario 1234.
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:57:41] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (iTrTZQCA3h) para el usuario 123.
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:57:55] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (pCvuwJWhQC) para el usuario 1234.
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:59:41] Acceso permitido para la IP: ::1
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 22:59:55] Acceso permitido para la IP: ::1
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 23:00:02] Acceso permitido para la IP: ::1
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 23:00:53] Acceso permitido para la IP: ::1
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 23:02:18] Acceso permitido para la IP: ::1
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 23:02:39] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (lV79AJ8nPC) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-21 23:02:54] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (7Ud0NpZ08Y) para el usuario 1234.
-El usuario especificado no existe en el equipo remoto.
-[2024-02-21 23:04:27] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (lX8Q9mi165) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-22 13:43:24] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (iG9h6wP3iH) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-26 22:43:01] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (wDiSVuayR9) para el usuario 123.
-Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-27 13:31:40] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (38OKBBwJrg) para el usuario 123.
+[2024-02-29 10:50:44] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario "jrami_pruebas".
+[2024-02-29 10:55:01] Acceso permitido para la IP: 192.168.5.1
 Ocurrió un error al cambiar la contraseña.
-[2024-02-27 13:32:45] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (aqhE9eOkEU) para el usuario 123.
+[2024-02-29 10:57:51] Acceso permitido para la IP: 192.168.5.1
 Ocurrió un error al cambiar la contraseña.
-[2024-02-27 13:34:19] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (Z512ufgCc0) para el usuario 123.
+[2024-02-29 10:58:31] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario "jrami_pruebas".
+[2024-02-29 10:58:49] Acceso permitido para la IP: 192.168.5.1
+[2024-02-29 10:59:09] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario "jrami_pruebas".
+[2024-02-29 10:59:36] Acceso permitido para la IP: 192.168.5.1
 Ocurrió un error al cambiar la contraseña.
-[2024-02-27 13:42:43] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (cs7hYBSXwb) para el usuario 123.
+[2024-02-29 10:59:57] Acceso permitido para la IP: 192.168.5.1
 Ocurrió un error al cambiar la contraseña.
-[2024-02-27 13:43:16] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (mhwSpdDI1u) para el usuario 123.
+[2024-02-29 11:00:12] Acceso permitido para la IP: 192.168.5.1
 Ocurrió un error al cambiar la contraseña.
-[2024-02-27 13:44:11] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (w5ZCRcn6qS) para el usuario 123.
-Ocurrió un error al cambiar la contraseña.
-[2024-02-27 13:46:24] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (0ILw6PeKmQ) para el usuario 123.
-Ocurrió un error al cambiar la contraseña.
-[2024-02-27 13:51:27] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (ImbTjDzHgy) para el usuario 123.
-Todos los campos son obligatorios.
-[2024-02-27 13:52:02] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (HtRR6WVZ1w) para el usuario 123.
+[2024-02-29 11:00:41] Acceso permitido para la IP: 192.168.5.1
 Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-27 13:52:18] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (oGaFQMrtbo) para el usuario 123.
-Ocurrió un error al cambiar la contraseña.
-[2024-02-27 13:53:02] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (w7o20jnWft) para el usuario 126.
-El usuario especificado no existe en el equipo remoto.
-[2024-02-27 13:53:56] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (N85iWbBDTw) para el usuario 123.
+[2024-02-29 11:01:46] Acceso permitido para la IP: 192.168.5.1
 Cambio de contraseña realizado con éxito para el usuario "123".
-[2024-02-27 16:23:02] Acceso no autorizado para la IP: ::1
-[2024-02-27 16:24:05] Acceso no autorizado para la IP: ::1
-2024-02-27 16:31:19 - Cambio de contraseña para usuario 'lala'. Resultado: 
-2024-02-27 16:31:27 - Cambio de contraseña para usuario 'lala'. Resultado: 
-2024-02-27 16:31:53 - Cambio de contraseña para usuario 'lala'. Resultado: 
-2024-02-27 16:32:27 - Cambio de contraseña para usuario 'lala'. Resultado: 
-2024-02-27 16:34:37 - Cambio de contraseña para usuario 'lala'. Resultado: 
-2024-02-27 16:45:20 - Cambio de contraseña para usuario 'lala'. Resultado: 
-[2024-02-27 16:45:23] Acceso no autorizado para la IP: 192.168.5.1
-[2024-02-27 16:45:25] Acceso no autorizado para la IP: 192.168.5.1
-[2024-02-27 16:45:28] Acceso no autorizado para la IP: 192.168.5.1
-[2024-02-27 16:45:30] Acceso no autorizado para la IP: 192.168.5.1
-2024-02-27 16:48:47 - Cambio de contraseña para usuario 'lala'. Resultado: 
-[2024-02-27 16:57:13] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (7zQhq9Jevk) para el usuario .
-Todos los campos son obligatorios.
-[2024-02-27 16:57:24] Acceso permitido para la IP: ::1
-Se ha generado una contraseña aleatoria (x9hbOzioR6) para el usuario .
-Todos los campos son obligatorios.
-[2024-02-27 16:57:51] Acceso no autorizado para la IP: ::1
-[2024-02-27 17:14:07] Acceso no autorizado para la IP: ::1
-[2024-02-27 17:18:31] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 17:19:07] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 17:20:05] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 17:28:01] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 17:28:22] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 17:32:15] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 17:32:35] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 17:32:56] Acceso permitido para la IP: 186.10.5.69
-Se ha generado una contraseña aleatoria (2YZPzj7MqD) para el usuario lala.
-Todos los campos son obligatorios.
-[2024-02-27 17:33:25] Acceso permitido para la IP: 186.10.5.69
-Se ha generado una contraseña aleatoria (TCH8g57LZB) para el usuario lala.
-Todos los campos son obligatorios.
-[2024-02-27 17:33:44] Acceso permitido para la IP: 186.10.5.69
-Se ha generado una contraseña aleatoria (AiZGw1glcx) para el usuario lala.
+[2024-02-29 11:02:56] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario "123".
+[2024-02-29 11:03:05] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario "123".
+[2024-02-29 11:05:46] Acceso permitido para la IP: 192.168.5.1
 Ocurrió un error al cambiar la contraseña.
-[2024-02-27 17:54:06] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 17:54:27] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 17:54:35] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 17:55:45] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 17:56:37] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 17:57:02] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 17:57:17] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 17:58:18] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 18:00:19] Acceso no autorizado para la IP: 164.77.174.26
-[2024-02-27 18:00:48] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 18:04:20] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 18:04:59] Acceso no autorizado para la IP: 127.0.0.1
-[2024-02-27 18:05:38] Acceso permitido para la IP: 186.10.5.69
-Se ha generado una contraseña aleatoria (Z1bChYDcNz) para el usuario lala.
+[2024-02-29 11:05:53] Acceso permitido para la IP: 192.168.5.1
 Ocurrió un error al cambiar la contraseña.
-[2024-02-27 18:06:18] Acceso permitido para la IP: 186.10.5.69
-Se ha generado una contraseña aleatoria (yMtn4UbCNh) para el usuario lala.
+[2024-02-29 11:06:04] Acceso permitido para la IP: 192.168.5.1
 Ocurrió un error al cambiar la contraseña.
-[2024-02-27 19:50:59] Acceso permitido para la IP: 186.10.5.69
-Se ha generado una contraseña aleatoria (Dam8nJnxra) para el usuario lala.
-Ocurrió un error al cambiar la contraseña.
-[2024-02-27 19:51:46] Acceso permitido para la IP: 186.10.5.69
-Se ha generado una contraseña aleatoria (QVos3leww7) para el usuario lala.
-Ocurrió un error al cambiar la contraseña.
-[2024-02-27 19:52:43] Acceso no autorizado para la IP: 164.77.174.26
-[2024-02-27 19:52:52] Acceso no autorizado para la IP: 164.77.174.26
-[2024-02-27 19:52:58] Acceso no autorizado para la IP: 164.77.174.26
-[2024-02-27 19:53:17] Acceso no autorizado para la IP: 164.77.174.26
-[2024-02-27 19:54:08] Acceso no autorizado para la IP: 164.77.174.26
-[2024-02-27 20:00:15] Acceso no autorizado para la IP: 164.77.174.26
-[2024-02-27 20:00:43] Acceso no autorizado para la IP: 164.77.174.26
-[2024-02-27 20:01:14] Acceso permitido para la IP: 164.77.174.26
-Se ha generado una contraseña aleatoria (mEpvCnxXXR) para el usuario lala.
-Ocurrió un error al cambiar la contraseña.
+[2024-02-29 11:06:41] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario "jrami_pruebas".
+[2024-02-29 11:12:29] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario "jrami_pruebas".
+IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas"
+[2024-02-29 11:17:34] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario 
+                "jrami_pruebas".
+Desde 192.168.5.1IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas"
+[2024-02-29 11:18:16] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario 
+                "jrami_pruebas".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas"
+[2024-02-29 11:19:51] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario 
+                "123".
+Desde 192.168.5.1
+En la IP: "192.168.5.125"
+Usuario administrador: "olson"
+Nueva contraseña para el usuario "123": "123"
+[2024-02-29 11:20:19] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario 
+                "123".
+Desde 192.168.5.1
+En la IP: "192.168.5.125"
+Usuario administrador: "olson"
+Nueva contraseña para el usuario "123": "123"

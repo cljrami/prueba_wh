@@ -1,9 +1,7 @@
 <?php
-ini_set("date.timezone", "America/Santiago");
 // Función para obtener la IP remota del cliente
 function getIp(): string
 {
-
     if (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) { // Soporte de Cloudflare
         $ip = $_SERVER['HTTP_CF_CONNECTING_IP'];
     } elseif (isset($_SERVER['REMOTE_ADDR'])) {
@@ -29,14 +27,11 @@ function getIp(): string
     return $ip;
 }
 
-
 // Obtener la IP remota del cliente utilizando la función getIp()
 $remote_ip = getIp();
 
-
-
 // Lista de IPs permitidas (IPv4 e IPv6)
-$allowed_ips = array("186.10.5.69", "192.168.5.70", "192.168.5.1");
+$allowed_ips = array("186.10.5.69");
 
 // Abrir o crear un archivo de registro para escritura (modo append)
 $log_file = fopen("log.txt", "a");

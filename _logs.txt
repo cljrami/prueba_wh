@@ -1,0 +1,18 @@
+[2024-02-28 14:57:20] Cliente con IP: 127.0.0.1 está accediendo al script.
+Intento de acceso no autorizado desde la IP 127.0.0.1.
+[2024-02-28 15:09:20] Cliente con IP: 127.0.0.1 está accediendo al script.
+Intento de acceso no autorizado desde la IP 127.0.0.1.
+[2024-02-28 15:10:19] Cliente con IP: 127.0.0.1 está accediendo al script.
+Intento de acceso no autorizado desde la IP 127.0.0.1.
+[2024-02-28 15:10:48] Cliente con IP: 127.0.0.1 está accediendo al script.
+Intento de acceso no autorizado desde la IP 127.0.0.1.
+[2024-02-28 15:10:59] Cliente con IP: 127.0.0.1 está accediendo al script.
+Intento de acceso no autorizado desde la IP 127.0.0.1.
+[2024-02-28 15:12:37] Cliente con IP: 127.0.0.1 está accediendo al script.
+Intento de acceso no autorizado desde la IP 127.0.0.1.
+[2024-02-28 15:17:43] Cliente con IP: 127.0.0.1 está accediendo al script.
+Intento de acceso no autorizado desde la IP 127.0.0.1.
+[2024-02-28 15:17:56] Cliente con IP: 127.0.0.1 está accediendo al script.
+Intento de acceso no autorizado desde la IP 127.0.0.1.
+[2024-02-28 15:18:17] Cliente con IP: 127.0.0.1 está accediendo al script.
+Intento de acceso no autorizado desde la IP 127.0.0.1.
