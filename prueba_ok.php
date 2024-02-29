@@ -39,12 +39,11 @@ $allowed_ips = array("186.10.5.69", "192.168.5.70", "192.168.5.1");
 $log_file = fopen("log.txt", "a");
 
 // Registrar la fecha y hora de la solicitud
-$log_entry = "[" . date('Y-m-d H:i:s') . "] ";
+$log_entry = "------INICIO ACCION [" . date('Y-m-d H:i:s') . "]------\n ";
 
 // Verificar si la IP remota está en la lista blanca de IPs permitidas
 if (in_array($remote_ip, $allowed_ips)) {
     // La IP del cliente está permitida, permitir que el resto del código se ejecute
-    $log_entry .= "Acceso permitido para la IP: $remote_ip\n";
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Recibir los datos del formulario HTML
@@ -79,18 +78,23 @@ if (in_array($remote_ip, $allowed_ips)) {
             // Ejecutar el comando de PowerShell y obtener la salida
             $output = shell_exec($command);
 
+            // Registrar la acción de PowerShell en el archivo de registro
+            $log_entry .= "Comando PowerShell ejecutado: $command\n";
+            $log_entry .= "Salida de PowerShell: $output\n";
+
             // Verificar si el cambio de contraseña fue exitoso
             if (trim($output) === 'true') {
                 $log_entry .= "Cambio de contraseña realizado con éxito para el usuario 
                 $target_user.\n";
                 $log_entry .= "Desde $remote_ip\n";
-                $log_entry .= "Destino: $ip\n";
+                $log_entry .= "En la IP: $ip\n";
                 $log_entry .= "Usuario administrador: $admin_user\n";
-                $log_entry .= "Password Admin: $admin_pass\n";
-                $log_entry .= "Nueva contraseña para el usuario $target_user > $user_pass\n";
+                $log_entry .= "Admin Password: $admin_user\n";
+                $log_entry .= "Nueva contraseña para el usuario $target_user: $user_pass\n";
+                $log_entry .= "---------- FIN ACCION ----------\n\n"; // Fecha y hora del cambio realizado
                 fwrite($log_file, $log_entry);
                 echo '<script type="text/javascript">';
-                echo 'alert("Cambio de contraseña realizado con éxito. La nueva contraseña es: ' . $user_pass . ');'; // Usar $user_pass en lugar de $new_pass
+                echo 'alert("Cambio de contraseña realizado con éxito. La nueva contraseña es: ' . $user_pass . '");'; // Usar $user_pass en lugar de $new_pass
                 echo '</script>';
             } elseif (trim($output) === 'false') {
                 $log_entry .= "El usuario especificado no existe en el equipo remoto.\n";

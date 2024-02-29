@@ -1,28 +1,246 @@
-[2024-02-29 12:53:51] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario 
+------INICIO ACCION [2024-02-29 15:05:34]------
+ Cambio de contraseña realizado con éxito para el usuario 
                 "123".
 Desde 192.168.5.1
 En la IP: "192.168.5.125"
 Usuario administrador: "olson"
 Admin Password: "olson"
-Nueva contraseña para el usuario "123": "1234"
----------- 2024-02-29 12:53:53 ----------
-[2024-02-29 12:54:14] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario 
-                "123".
-Desde 192.168.5.1
-En la IP: "192.168.5.125"
-Usuario administrador: "olson"
-Admin Password: "olson"
-Nueva contraseña para el usuario "123": "1234"
----------- 2024-02-29 12:54:18 ----------
-[2024-02-29 12:54:36] Acceso permitido para la IP: 192.168.5.1
-Cambio de contraseña realizado con éxito para el usuario 
-                "123".
-Desde 192.168.5.1
-En la IP: "192.168.5.125"
-Usuario administrador: "olson"
-Admin Password: "olson"
-Nueva contraseña para el usuario "123": "1234"
+Nueva contraseña para el usuario "123": "123"
+---------- FIN ACCION ----------
 
----------- 2024-02-29 12:54:41 ----------
+[2024-02-29 15:05:52] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario 
+                "123".
+Desde 192.168.5.1
+En la IP: "192.168.5.125"
+Usuario administrador: "olson"
+Admin Password: "olson"
+------INICIO ACCION [2024-02-29 15:14:00]------
+ Ocurrió un error al cambiar la contraseña.
+------INICIO ACCION [2024-02-29 15:14:10]------
+ Cambio de contraseña realizado con éxito para el usuario 
+                "jrami_pruebas".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Admin Password: "jrami_pruebas"
+Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas"
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-02-29 15:15:10]------
+ El usuario especificado no existe en el equipo remoto.
+------INICIO ACCION [2024-02-29 15:15:32]------
+ Cambio de contraseña realizado con éxito para el usuario 
+                "jrami_pruebas".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Admin Password: "jrami_pruebas"
+Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas2"
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-02-29 15:15:51]------
+ Ocurrió un error al cambiar la contraseña.
+------INICIO ACCION [2024-02-29 15:16:01]------
+ Ocurrió un error al cambiar la contraseña.
+------INICIO ACCION [2024-02-29 15:16:17]------
+ Ocurrió un error al cambiar la contraseña.
+------INICIO ACCION [2024-02-29 15:16:31]------
+ Ocurrió un error al cambiar la contraseña.
+------INICIO ACCION [2024-02-29 15:16:59]------
+ Ocurrió un error al cambiar la contraseña.
+[2024-02-29 15:17:10] Acceso permitido para la IP: 192.168.5.1
+Ocurrió un error al cambiar la contraseña.
+[2024-02-29 15:17:36] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario 
+                "123".
+Desde 192.168.5.1
+En la IP: "192.168.5.125"
+Usuario administrador: "olson"
+Admin Password: "olson"
+Nueva contraseña para el usuario "123": "123"
+---------- 2024-02-29 15:17:38 ----------
+[2024-02-29 15:18:15] Acceso permitido para la IP: 192.168.5.1
+Ocurrió un error al cambiar la contraseña.
+[2024-02-29 15:19:22] Acceso permitido para la IP: 192.168.5.1
+Cambio de contraseña realizado con éxito para el usuario 
+                "jrami_pruebas".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Admin Password: "jrami_pruebas"
+Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas"
+---------- 2024-02-29 15:19:24 ----------
+------INICIO ACCION [2024-02-29 15:19:45]------
+ Ocurrió un error al cambiar la contraseña.
+------INICIO ACCION [2024-02-29 15:19:55]------
+ Cambio de contraseña realizado con éxito para el usuario 
+                "jrami_pruebas".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Admin Password: "jrami_pruebas"
+Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas"
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-02-29 15:27:21]------
+ Credenciales de administrador incorrectas.
+------INICIO ACCION [2024-02-29 15:27:29]------
+ Credenciales de administrador incorrectas.
+------INICIO ACCION [2024-02-29 15:27:34]------
+ Credenciales de administrador incorrectas.
+------INICIO ACCION [2024-02-29 15:27:45]------
+ Credenciales de administrador incorrectas.
+------INICIO ACCION [2024-02-29 15:30:18]------
+ Cambio de contraseña realizado con éxito para el usuario 
+                "jrami_pruebas".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Admin Password: "jrami_pruebas"
+Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas"
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-02-29 15:30:29]------
+ El usuario especificado no existe en el equipo remoto.
+------INICIO ACCION [2024-02-29 15:30:43]------
+ Cambio de contraseña realizado con éxito para el usuario 
+                "jrami_pruebas".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Admin Password: "jrami_pruebas"
+Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas11"
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-02-29 15:31:49]------
+ Ocurrió un error al cambiar la contraseña.
+------INICIO ACCION [2024-02-29 15:31:57]------
+ Cambio de contraseña realizado con éxito para el usuario 
+                "jrami_pruebas".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Admin Password: "jrami_pruebas"
+Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas"
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-02-29 15:32:49]------
+ El usuario administrador o el usuario especificado no existen en la máquina virtual.
+------INICIO ACCION [2024-02-29 15:33:01]------
+ El usuario administrador o el usuario especificado no existen en la máquina virtual.
+------INICIO ACCION [2024-02-29 15:33:08]------
+ El usuario administrador o el usuario especificado no existen en la máquina virtual.
+------INICIO ACCION [2024-02-29 15:33:48]------
+ Ocurrió un error al cambiar la contraseña.
+------INICIO ACCION [2024-02-29 15:33:57]------
+ Cambio de contraseña realizado con éxito para el usuario 
+                "jrami_pruebas".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Admin Password: "jrami_pruebas"
+Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas"
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-02-29 15:43:20]------
+ Ocurrió un error al cambiar la contraseña.
+------INICIO ACCION [2024-02-29 15:43:29]------
+ Cambio de contraseña realizado con éxito para el usuario 
+                "jrami_pruebas".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Admin Password: "jrami_pruebas"
+Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas"
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-02-29 15:44:23]------
+ Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "jrami_pruebas" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami_pruebas", $securePass; Invoke-Command -ComputerName "192.168.5.131" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "jrami_pruebas", "jrami_pruebas"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario 
+                "jrami_pruebas".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Admin Password: "jrami_pruebas"
+Nueva contraseña para el usuario "jrami_pruebas": "jrami_pruebas"
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-02-29 15:47:02]------
+ Acceso no autorizado para la IP: 192.168.5.1
+------INICIO ACCION [2024-02-29 15:52:26]------
+ Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "jrami_pruebas" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami_pruebas", $securePass; Invoke-Command -ComputerName "192.168.5.131" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "xhost", "xhost"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario 
+                "xhost".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Admin Password: "jrami_pruebas"
+Nueva contraseña para el usuario "xhost": "xhost"
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-02-29 16:48:25]------
+ Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "jrami_pruebas" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami_pruebas", $securePass; Invoke-Command -ComputerName "192.168.5.131" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "xhost", "xhost"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario 
+                "xhost".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Admin Password: "jrami_pruebas"
+Nueva contraseña para el usuario "xhost": "xhost"
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-02-29 16:49:25]------
+ Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "jrami_pruebas" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami_pruebas", $securePass; Invoke-Command -ComputerName "192.168.5.131" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "xhost", "xhost"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario 
+                "xhost".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Admin Password: "jrami_pruebas"
+Nueva contraseña para el usuario "xhost": "xhost"
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-02-29 16:50:22]------
+ Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "jrami_pruebas" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami_pruebas", $securePass; Invoke-Command -ComputerName "192.168.5.131" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "xhost", "xhost"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario 
+                "xhost".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Admin Password: "jrami_pruebas"
+Nueva contraseña para el usuario "xhost": "xhost"
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-02-29 16:52:23]------
+ Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "jrami_pruebas" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami_pruebas", $securePass; Invoke-Command -ComputerName "192.168.5.131" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "xhost", "xhost"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario 
+                "xhost".
+Desde 192.168.5.1
+En la IP: "192.168.5.131"
+Usuario administrador: "jrami_pruebas"
+Admin Password: "jrami_pruebas"
+Nueva contraseña para el usuario "xhost": "xhost"
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-02-29 16:53:12]------
+ Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "1234" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami", $securePass; Invoke-Command -ComputerName "192.168.5.156" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "xhost", "lala"; "
+Salida de PowerShell: 
+Ocurrió un error al cambiar la contraseña.
+------INICIO ACCION [2024-02-29 16:53:57]------
+ Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "xhost", "123"; "
+Salida de PowerShell: false
+
+El usuario especificado no existe en el equipo remoto.
