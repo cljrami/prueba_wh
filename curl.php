@@ -1,10 +1,5 @@
 <?php
-// Datos para enviar al script remoto
-$admin_user = 'olson';
-$admin_pass = '123';
-$ip_destino = '192.168.1.156'; // Dirección IP de la máquina remota
-$target_user = '123';
-$user_pass = '123';
+
 
 // URL del script remoto
 $url = 'https://vps06.xhost.cl/prueba_whmcs/prueba_ok.php';
@@ -13,7 +8,7 @@ $url = 'https://vps06.xhost.cl/prueba_whmcs/prueba_ok.php';
 $data = array(
     'olson' => $admin_user,
     '123' => $admin_pass,
-    '192.168.1.156' => $ip_destino,
+    '192.168.1.125' => $ip_destino,
     '123' => $target_user,
     '123' => $user_pass
 );

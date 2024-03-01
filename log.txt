@@ -2716,3 +2716,419 @@ Salida de PowerShell:
 Ocurrió un error al cambiar la contraseña.
 ---------- FIN ACCION ----------
 
+------INICIO ACCION [2024-03-01 16:28:24]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.1.156
+  Usuario Objetivo: 123435
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.1.156" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123435", "123"; "
+Salida de PowerShell: 
+Ocurrió un error al cambiar la contraseña.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:28:32]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:28:48]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.1.156
+  Usuario Objetivo: 123435
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.1.156" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123435", "123"; "
+Salida de PowerShell: 
+Ocurrió un error al cambiar la contraseña.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:29:28]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.1.156
+  Usuario Objetivo: 123435
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.1.156" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123435", "123"; "
+Salida de PowerShell: 
+Ocurrió un error al cambiar la contraseña.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:29:32]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:30:10]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:30:32]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:30:39]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:31:19]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:31:32]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:31:54]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:32:07]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:32:32]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:33:32]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:34:06]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.1.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.1.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "123"; "
+Salida de PowerShell: 
+Ocurrió un error al cambiar la contraseña.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:34:32]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:34:55]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:35:08]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:35:33]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:36:03]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:36:30]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:36:33]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:37:33]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:38:10]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:38:13]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:38:16]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:38:33]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:39:33]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:40:19]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:40:22]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:40:33]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:41:08]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:41:33]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:42:34]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:43:34]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:44:34]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:45:34]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:45:40]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:45:56]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:46:01]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:46:34]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:47:29]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:47:32]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:47:34]------
+ IP Remota del Cliente: 192.168.5.1
+Acceso no autorizado para la IP: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:47:49]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:47:57]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:48:23]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:48:34]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:48:34]------
+ IP Remota del Cliente: 192.168.5.1
+Acceso no autorizado para la IP: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:49:03]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:49:34]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:49:35]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:50:10]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:50:35]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 16:51:35]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
