@@ -3228,3 +3228,73 @@ Todos los campos son obligatorios.
 Todos los campos son obligatorios.
 ---------- FIN ACCION ----------
 
+------INICIO ACCION [2024-03-01 17:01:36]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 17:02:36]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 17:02:54]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 17:03:36]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 17:04:36]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 17:05:36]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 17:06:36]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 17:07:37]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 17:08:37]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 17:09:37]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 17:10:37]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 17:11:37]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 17:12:37]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 17:13:37]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 17:14:37]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 17:15:37]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
