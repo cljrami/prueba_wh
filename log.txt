@@ -4090,3 +4090,43 @@ Todos los campos son obligatorios.
  IP Remota del Cliente: 192.168.5.1
 ---------- FIN ACCION ----------
 
+------INICIO ACCION [2024-03-01 18:55:50]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 18:56:50]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 18:57:50]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 18:58:48]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 18:58:50]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 18:59:17]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: 
+  Contraseña Administrador: 
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-01 18:59:50]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
