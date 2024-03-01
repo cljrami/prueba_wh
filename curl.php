@@ -11,11 +11,11 @@ $url = 'https://vps06.xhost.cl/prueba_whmcs/prueba_ok.php';
 
 // Datos a enviar en la solicitud POST
 $data = array(
-    'admin_user' => $admin_user,
-    'admin_pass' => $admin_pass,
-    'ip_destino' => $ip_destino,
-    'target_user' => $target_user,
-    'user_pass' => $user_pass
+    'olson' => $admin_user,
+    '123' => $admin_pass,
+    '192.168.1.156' => $ip_destino,
+    '123' => $target_user,
+    '123' => $user_pass
 );
 
 // Inicializar cURL
