@@ -33,7 +33,14 @@ function getIp(): string
 $remote_ip = getIp();
 
 // Lista de IPs permitidas (IPv4 e IPv6)
-$allowed_ips = array("186.10.5.69", "192.168.5.70", "192.168.5.1");
+$allowed_ips = array("186.10.5.69", "192.168.5.70", "192.168.5.1", "127.0.0.1");
+
+// Mostrar si la IP remota está permitida
+if (in_array($remote_ip, $allowed_ips)) {
+    echo "La IP: $remote_ip está permitida.\n";
+} else {
+    echo "Acceso no autorizado para la IP: $remote_ip\n";
+}
 
 // Abrir o crear un archivo de registro para escritura (modo append)
 $log_file = fopen("log.txt", "a");
@@ -46,8 +53,6 @@ $log_entry .= "IP Remota del Cliente: $remote_ip\n";
 if (in_array($remote_ip, $allowed_ips)) {
     // La IP del cliente está permitida, permitir que el resto del código se ejecute
 
-    $log_entry .= "Acceso permitido para la IP: $remote_ip\n";
-
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Recibir los datos del formulario HTML
         $admin_user = $_POST["admin_user"] ?? '';
@@ -57,7 +62,6 @@ if (in_array($remote_ip, $allowed_ips)) {
         $user_pass = $_POST["user_pass"] ?? ''; // Nueva variable para la contraseña del usuario
 
         // Detalles del formulario recibido
-        $log_entry .= "Datos del Formulario:\n";
         $log_entry .= "  Usuario Administrador: $admin_user\n";
         $log_entry .= "  Contraseña Administrador: $admin_pass\n";
         $log_entry .= "  IP del Equipo Remoto: $ip\n";
@@ -114,7 +118,6 @@ if (in_array($remote_ip, $allowed_ips)) {
 } else {
     // La IP del cliente no está en la lista blanca, negar el acceso
     $log_entry .= "Acceso no autorizado para la IP: $remote_ip\n";
-    echo "Acceso no autorizado para la IP: $remote_ip";
 }
 
 // Registrar toda la acción en el archivo de registro
