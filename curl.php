@@ -1,16 +1,22 @@
 <?php
 
+// Variables a enviar al script remoto
+$admin_user = 'usuario_admin';
+$admin_pass = 'contraseña_admin';
+$ip_destino = '192.168.1.125'; // Dirección IP de la máquina remota
+$target_user = 'usuario_objetivo';
+$user_pass = 'nueva_contraseña';
 
 // URL del script remoto
 $url = 'https://vps06.xhost.cl/prueba_whmcs/prueba_ok.php';
 
 // Datos a enviar en la solicitud POST
 $data = array(
-    'olson' => $admin_user,
-    '123' => $admin_pass,
-    '192.168.1.125' => $ip_destino,
-    '123' => $target_user,
-    '123' => $user_pass
+    'admin_user' => $admin_user,
+    'admin_pass' => $admin_pass,
+    'ip_destino' => $ip_destino,
+    'target_user' => $target_user,
+    'user_pass' => $user_pass
 );
 
 // Inicializar cURL
