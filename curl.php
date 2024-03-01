@@ -1,22 +1,15 @@
 <?php
 
-// Variables a enviar al script remoto
-$admin_user = 'usuario_admin';
-$admin_pass = 'contraseña_admin';
-$ip_destino = '192.168.1.125'; // Dirección IP de la máquina remota
-$target_user = 'usuario_objetivo';
-$user_pass = 'nueva_contraseña';
-
 // URL del script remoto
 $url = 'https://vps06.xhost.cl/prueba_whmcs/prueba_ok.php';
 
 // Datos a enviar en la solicitud POST
 $data = array(
-    'admin_user' => $admin_user,
-    'admin_pass' => $admin_pass,
-    'ip_destino' => $ip_destino,
-    'target_user' => $target_user,
-    'user_pass' => $user_pass
+    'olson' => $admin_user,
+    '123' => $admin_pass,
+    '192.168.5.125' => $ip_destino,
+    '132' => $target_user,
+    '123' => $user_pass
 );
 
 // Inicializar cURL
@@ -42,7 +35,13 @@ $response = curl_exec($ch);
 
 // Verificar si ocurrió algún error
 if ($response === false) {
-    echo 'Error en la solicitud cURL: ' . curl_error($ch);
+    $error_message = 'Error en la solicitud cURL: ' . curl_error($ch);
+
+    // Registrar el error en el archivo de registro
+    $log_entry = "[" . date('Y-m-d H:i:s') . "] Error: $error_message\n";
+    file_put_contents('registro.txt', $log_entry, FILE_APPEND | LOCK_EX);
+
+    echo $error_message;
 } else {
     echo 'Respuesta del servidor remoto: ' . $response;
 }

@@ -1,0 +1,29 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "control-webpanel",
+  "license": "proprietary",
+  "category": "webhosting",
+  "description": {
+    "name": "Control-Webpanel",
+    "tagline": "Free & PRO Linux Web Hosting Control Panel",
+    "short": "CWP is a modern and advanced Linux control panel for web hosting providers and system admins.",
+    "long": "CWP is a World Leading advanced Free and PRO web hosting panel that gives you all the flexibility to effectively and efficiently manage your server and clients. Now with CWP Secure Kernel providing the highest possible security level for your server.\n\n[Learn more &raquo;](https://control-webpanel.com/features)"
+  },
+  
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.xhost.cl\/",
+    "learn_more": "https:\/\/control-webpanel.com\/features",
+    "support_url": "https:\/\/control-webpanel.com\/support-services",
+    "docs_url": "https:\/\/wiki.centos-webpanel.com\/"
+  },
+  "authors": [
+    {
+      "name": "XHOST",
+      "homepage": "https:\/\/www.xhost.cl\/"
+    }
+  ]
+}
