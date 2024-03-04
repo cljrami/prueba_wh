@@ -218,3 +218,7 @@ Cambio de contraseña realizado con éxito para el usuario "123".
  IP Remota del Cliente: 192.168.5.1
 ---------- FIN ACCION ----------
 
+------INICIO ACCION [2024-03-04 13:16:51]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
