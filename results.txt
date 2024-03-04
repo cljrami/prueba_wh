@@ -1,0 +1,2 @@
+La IP: 192.168.5.1 está permitida.
+<script type="text/javascript">alert("Cambio de contraseña realizado con éxito. La nueva contraseña es: "123456789"");</script>

@@ -1,50 +1,37 @@
 <?php
+// Define las variables
+$admin_user = 'olson';
+$admin_pass = '123';
+$ip_destino = '192.168.5.125';
+$target_user = '123';
+$user_pass = '555';
 
-// URL del script remoto
+// Define la URL del script
 $url = 'https://vps06.xhost.cl/prueba_whmcs/prueba_ok.php';
 
-// Datos a enviar en la solicitud POST
-$data = array(
-    'olson' => $admin_user,
-    '123' => $admin_pass,
-    '192.168.5.125' => $ip_destino,
-    '132' => $target_user,
-    '123' => $user_pass
-);
+// Crea un arreglo asociativo con las variables
+$post_data = [
+    'admin_user' => $admin_user,
+    'admin_pass' => $admin_pass,
+    'ip_destino' => $ip_destino,
+    'target_user' => $target_user,
+    'user_pass' => $user_pass,
+];
 
-// Inicializar cURL
-$ch = curl_init();
-
-// Establecer la URL de destino
-curl_setopt($ch, CURLOPT_URL, $url);
-
-// Establecer la solicitud POST
+// Configura la solicitud cURL
+$ch = curl_init($url);
 curl_setopt($ch, CURLOPT_POST, 1);
-
-// Establecer los datos a enviar
-curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
-
-// Seguir redireccionamientos si los hay
-curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-
-// Establecer la opción para recibir la respuesta como cadena
+curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($post_data));
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-// Ejecutar la solicitud y obtener la respuesta
+// Ejecuta la solicitud y obtén la respuesta
 $response = curl_exec($ch);
 
-// Verificar si ocurrió algún error
-if ($response === false) {
-    $error_message = 'Error en la solicitud cURL: ' . curl_error($ch);
-
-    // Registrar el error en el archivo de registro
-    $log_entry = "[" . date('Y-m-d H:i:s') . "] Error: $error_message\n";
-    file_put_contents('registro.txt', $log_entry, FILE_APPEND | LOCK_EX);
-
-    echo $error_message;
-} else {
-    echo 'Respuesta del servidor remoto: ' . $response;
-}
-
-// Cerrar la sesión cURL
+// Cierra la conexión cURL
 curl_close($ch);
+
+// Guarda la respuesta en results.txt
+file_put_contents('results.txt', $response);
+
+// Imprime un mensaje de éxito
+echo "Variables enviadas mediante cURL a $url. Respuesta guardada en results.txt.";
