@@ -66,7 +66,7 @@ if (in_array($remote_ip, $allowed_ips)) {
         $target_user = $_POST["target_user"] ?? '';
         $user_pass = $_POST["user_pass"] ?? ''; // Nueva variable para la contraseña del usuario
 
-        // Detalles  recibidos
+        // Detalles  recibido
         $log_entry .= "  Usuario Administrador: $admin_user\n";
         $log_entry .= "  Contraseña Administrador: $admin_pass\n";
         $log_entry .= "  IP del Equipo Remoto: $ip\n";
