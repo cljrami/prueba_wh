@@ -1,6 +1,33 @@
 <?php
 ini_set("date.timezone", "America/Santiago");
 
+// Clase para verificar dispositivos y realizar ping
+class CheckDevice
+{
+    // Función para determinar el sistema operativo
+    public function myOS()
+    {
+        if (strtoupper(substr(PHP_OS, 0, 3)) === (chr(87) . chr(73) . chr(78)))
+            return true;
+
+        return false;
+    }
+
+    // Función para realizar ping a una dirección IP
+    public function ping($ip_addr)
+    {
+        if ($this->myOS()) {
+            if (!exec("ping -n 1 -w 1 " . $ip_addr . " 2>NUL > NUL && (echo 0) || (echo 1)"))
+                return true;
+        } else {
+            if (!exec("ping -q -c1 " . $ip_addr . " >/dev/null 2>&1 ; echo $?"))
+                return true;
+        }
+
+        return false;
+    }
+}
+
 // Función para obtener la IP remota del cliente
 function getIp(): string
 {
@@ -40,14 +67,31 @@ if (in_array($remote_ip, $allowed_ips)) {
     echo "La IP: $remote_ip está permitida.\n";
 } else {
     echo "Acceso no autorizado para la IP: $remote_ip\n";
+    exit; // Salir del script si la IP remota no está permitida
+}
+
+// Crear una instancia de la clase CheckDevice
+$checkDevice = new CheckDevice();
+
+// Validar la IP del equipo remoto
+if (!$checkDevice->ping($remote_ip)) {
+    echo "Error: La IP del equipo remoto no es válida o no está conectado.\n";
+    exit; // Salir del script si la IP del equipo remoto no es válida o no está conectado
 }
 
 // Abrir o crear un archivo de registro para escritura (modo append)
-$log_file = fopen("log.txt", "a");
+$log_file = fopen("access.txt", "a");
 
 // Registrar la fecha y hora de la solicitud
 $log_entry = "------INICIO ACCION [" . date('Y-m-d H:i:s') . "]------\n ";
 $log_entry .= "IP Remota del Cliente: $remote_ip\n";
+
+// Registrar si la IP del equipo remoto existe
+if ($checkDevice->ping($remote_ip)) {
+    $log_entry .= "La IP del equipo remoto existe.\n";
+} else {
+    $log_entry .= "Error: La IP del equipo remoto no responde al ping.\n";
+}
 
 // Verificar si la IP remota está en la lista blanca de IPs permitidas
 if (in_array($remote_ip, $allowed_ips)) {

@@ -1,6 +1,0 @@
-Respuesta del servidor: La IP: 192.168.5.1 está permitida.
-Ocurrió un error al cambiar la contraseña.
-Respuesta del servidor: La IP: 192.168.5.1 está permitida.
-Ocurrió un error al cambiar la contraseña.
-Respuesta del servidor: La IP: 192.168.5.1 está permitida.
-Ocurrió un error al cambiar la contraseña.

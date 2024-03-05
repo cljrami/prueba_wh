@@ -1,0 +1,2 @@
+Error: La IP de destino (192.168.1.125) no responde al ping.
+Error: La máquina remota (192.168.1.125) no responde al ping.
