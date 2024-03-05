@@ -916,3 +916,7 @@ Salida de PowerShell: true
 Cambio de contraseña realizado con éxito para el usuario "123".
 ---------- FIN ACCION ----------
 
+------INICIO ACCION [2024-03-05 10:50:54]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
