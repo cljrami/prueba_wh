@@ -1,6 +1,11 @@
 <?php
 ini_set("date.timezone", "America/Santiago");
 
+
+//Valida ip
+
+
+
 // Función para obtener la IP remota del cliente
 function getIp(): string
 {
@@ -61,7 +66,7 @@ if (in_array($remote_ip, $allowed_ips)) {
         $target_user = $_POST["target_user"] ?? '';
         $user_pass = $_POST["user_pass"] ?? ''; // Nueva variable para la contraseña del usuario
 
-        // Detalles del formulario recibido
+        // Detalles  recibidos
         $log_entry .= "  Usuario Administrador: $admin_user\n";
         $log_entry .= "  Contraseña Administrador: $admin_pass\n";
         $log_entry .= "  IP del Equipo Remoto: $ip\n";
@@ -126,3 +131,4 @@ fwrite($log_file, $log_entry);
 
 // Cerrar el archivo de registro
 fclose($log_file);
+//ok

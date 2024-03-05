@@ -4,7 +4,7 @@ $admin_user = 'olson';
 $admin_pass = '123';
 $ip_destino = '192.168.5.125';
 $target_user = '123';
-$user_pass = '@alfaalfa@'; // Ejemplo de contraseña
+$user_pass = '@333333@'; // Ejemplo de contraseña
 
 // Verifica si la contraseña cumple con los requisitos
 if (!preg_match('/^(?=.*[A-Za-z0-9])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]{8,}$/', $user_pass)) {
@@ -58,3 +58,4 @@ if (!preg_match('/^(?=.*[A-Za-z0-9])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]{8,}$/', 
     // Guarda la información del log remoto en un archivo local
     file_put_contents('log.txt', $log_content);
 }
+//ok

@@ -126,3 +126,4 @@ fwrite($log_file, $log_entry);
 
 // Cerrar el archivo de registro
 fclose($log_file);
+//ok
