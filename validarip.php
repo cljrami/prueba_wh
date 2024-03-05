@@ -25,7 +25,7 @@ class CheckDevice
     }
 }
 
-$ip_addr = "192.168.5.126";
+$ip_addr = "192.168.5.125";
 
 if ((new CheckDevice())->ping($ip_addr))
     echo "Ip existente";

@@ -4,7 +4,7 @@ $admin_user = 'olson';
 $admin_pass = '123';
 $ip_destino = '192.168.5.125';
 $target_user = '123';
-$user_pass = '@q1w2e3r4@'; // Ejemplo de contraseña
+$user_pass = '@alfaalfa@'; // Ejemplo de contraseña
 
 // Verifica si la contraseña cumple con los requisitos
 if (!preg_match('/^(?=.*[A-Za-z0-9])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]{8,}$/', $user_pass)) {
