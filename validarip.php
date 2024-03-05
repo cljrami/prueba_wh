@@ -31,3 +31,7 @@ if ((new CheckDevice())->ping($ip_addr))
     echo "Ip existente";
 else
     echo "Ip no existe";
+
+
+
+    //ok
