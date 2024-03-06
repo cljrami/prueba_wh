@@ -1,0 +1,11 @@
+2024-03-06 22:35:39 - Comando ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String '123' -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList 'olson', $securePass; $result = Invoke-Command -ComputerName 192.168.5.125 -Credential $cred -ScriptBlock { param($usuario_cliente, $password_cliente); if(Get-LocalUser -Name $usuario_cliente -ErrorAction SilentlyContinue) { Set-LocalUser -Name $usuario_cliente -Password (ConvertTo-SecureString -AsPlainText $password_cliente -Force); return '0'; } else { return '-1'; } } -ArgumentList 123, '1111111111'; echo $result; " - Resultado: 0
+
+2024-03-06 22:35:56 - Comando ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String '123' -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList 'olson', $securePass; $result = Invoke-Command -ComputerName 192.168.5.125 -Credential $cred -ScriptBlock { param($usuario_cliente, $password_cliente); if(Get-LocalUser -Name $usuario_cliente -ErrorAction SilentlyContinue) { Set-LocalUser -Name $usuario_cliente -Password (ConvertTo-SecureString -AsPlainText $password_cliente -Force); return '0'; } else { return '-1'; } } -ArgumentList 1235, '1111111111'; echo $result; " - Resultado: -1
+
+2024-03-06 18:40:17 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
+
+2024-03-06 18:40:32 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
+
+2024-03-06 18:45:51 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
+
+2024-03-06 18:46:05 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 
