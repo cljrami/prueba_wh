@@ -78,7 +78,8 @@ if (in_array($remote_ip, $allowed_ips)) {
             // Escapar los argumentos del shell
             $admin_user = escapeshellarg($admin_user);
             $admin_pass = escapeshellarg($admin_pass);
-            $ip = escapeshellarg($ip);
+            $ip_destino = escapeshellarg($ip_detino);
+            //$ip = escapeshellarg($ip);
             $target_user = escapeshellarg($target_user);
             $user_pass = escapeshellarg($user_pass); // Escapar la contraseña del usuario
 

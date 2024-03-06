@@ -510,3 +510,625 @@ Salida de PowerShell: false
 El usuario especificado no existe en el equipo remoto.
 ---------- FIN ACCION ----------
 
+------INICIO ACCION [2024-03-05 18:42:33]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "123"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-05 18:43:41]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 1234
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "1234", "123"; "
+Salida de PowerShell: false
+
+El usuario especificado no existe en el equipo remoto.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 08:30:03]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: jrami_pruebas
+  Contraseña Administrador: jrami_pruebas
+  IP del Equipo Remoto: 192.168.5.131
+  Usuario Objetivo: jrami_pruebas2
+  Nueva Contraseña Usuario: jrami_pruebas
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "jrami_pruebas" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami_pruebas", $securePass; Invoke-Command -ComputerName "192.168.5.131" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "jrami_pruebas2", "jrami_pruebas"; "
+Salida de PowerShell: false
+
+El usuario especificado no existe en el equipo remoto.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 08:31:59]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: jrami_pruebas
+  Contraseña Administrador: jrami_pruebas
+  IP del Equipo Remoto: 192.168.5.131
+  Usuario Objetivo: jrami_pruebas2
+  Nueva Contraseña Usuario: jrami_pruebas
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "jrami_pruebas" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami_pruebas", $securePass; Invoke-Command -ComputerName "192.168.5.131" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "jrami_pruebas2", "jrami_pruebas"; "
+Salida de PowerShell: false
+
+El usuario especificado no existe en el equipo remoto.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 08:33:16]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: jrami_pruebas
+  Contraseña Administrador: jrami_pruebas
+  IP del Equipo Remoto: 192.168.5.131
+  Usuario Objetivo: jrami_pruebas2
+  Nueva Contraseña Usuario: jrami_pruebas
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "jrami_pruebas" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami_pruebas", $securePass; Invoke-Command -ComputerName "192.168.5.131" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "jrami_pruebas2", "jrami_pruebas"; "
+Salida de PowerShell: false
+
+El usuario especificado no existe en el equipo remoto.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 08:34:04]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: jrami_pruebas
+  Contraseña Administrador: jrami_pruebas
+  IP del Equipo Remoto: 192.168.5.131
+  Usuario Objetivo: jrami_pruebas
+  Nueva Contraseña Usuario: jrami_pruebas
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "jrami_pruebas" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami_pruebas", $securePass; Invoke-Command -ComputerName "192.168.5.131" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "jrami_pruebas", "jrami_pruebas"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "jrami_pruebas".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 08:35:49]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: jrami
+  Contraseña Administrador: 1234
+  IP del Equipo Remoto: 192.168.5.156
+  Usuario Objetivo: lala
+  Nueva Contraseña Usuario: lala
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "1234" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami", $securePass; Invoke-Command -ComputerName "192.168.5.156" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "lala", "lala"; "
+Salida de PowerShell: 
+Ocurrió un error al cambiar la contraseña.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 08:36:06]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: jrami
+  Contraseña Administrador: 1234
+  IP del Equipo Remoto: 192.168.5.156
+  Usuario Objetivo: lala
+  Nueva Contraseña Usuario: lolo
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "1234" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami", $securePass; Invoke-Command -ComputerName "192.168.5.156" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "lala", "lolo"; "
+Salida de PowerShell: 
+Ocurrió un error al cambiar la contraseña.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 08:37:08]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: jrami
+  Contraseña Administrador: 1234
+  IP del Equipo Remoto: 192.168.5.156
+  Usuario Objetivo: lal2
+  Nueva Contraseña Usuario: cos
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "1234" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami", $securePass; Invoke-Command -ComputerName "192.168.5.156" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "lal2", "cos"; "
+Salida de PowerShell: 
+Ocurrió un error al cambiar la contraseña.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 08:37:14]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: jrami
+  Contraseña Administrador: 1234
+  IP del Equipo Remoto: 192.168.5.156
+  Usuario Objetivo: lal2
+  Nueva Contraseña Usuario: cos
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "1234" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami", $securePass; Invoke-Command -ComputerName "192.168.5.156" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "lal2", "cos"; "
+Salida de PowerShell: 
+Ocurrió un error al cambiar la contraseña.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 08:37:28]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: jrami_pruebas
+  Contraseña Administrador: jrami_pruebas
+  IP del Equipo Remoto: 192.168.5.131
+  Usuario Objetivo: jrami_pruebas2
+  Nueva Contraseña Usuario: jrami_pruebas
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "jrami_pruebas" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "jrami_pruebas", $securePass; Invoke-Command -ComputerName "192.168.5.131" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "jrami_pruebas2", "jrami_pruebas"; "
+Salida de PowerShell: false
+
+El usuario especificado no existe en el equipo remoto.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 08:38:04]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: loli2000
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "loli2000"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 08:41:43]------
+ IP Remota del Cliente: 192.168.5.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:09:30]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: loli2000
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "loli2000"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:14:58]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: loli2000
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "loli2000"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:16:22]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.126
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: loli2000
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.126" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "loli2000"; "
+Salida de PowerShell: 
+Ocurrió un error al cambiar la contraseña.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:16:56]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.126
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: loli2000
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.126" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "loli2000"; "
+Salida de PowerShell: 
+Ocurrió un error al cambiar la contraseña.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:19:46]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: loli2000
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:20:29]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: loli2000
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:20:37]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.12
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: loli2000
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.12" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "loli2000"; "
+Salida de PowerShell: 
+Ocurrió un error al cambiar la contraseña.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:21:00]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.12
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: loli2000
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.12" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "loli2000"; "
+Salida de PowerShell: 
+Ocurrió un error al cambiar la contraseña.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:23:45]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: loli2000
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "loli2000"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:23:53]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: loli2000
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "loli2000"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:24:11]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:24:19]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: loli2000
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "loli2000"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:25:12]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: loli2000
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "loli2000"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:25:26]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: loli2000
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:25:43]------
+ IP Remota del Cliente: 127.0.0.1
+Acceso no autorizado para la IP: 127.0.0.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:26:14]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: loli2000
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:27:14]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 123
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:27:26]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 123
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:27:43]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: 123
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:27:58]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "123"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:29:42]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 1234
+  Nueva Contraseña Usuario: loli2000
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "1234", "loli2000"; "
+Salida de PowerShell: false
+
+El usuario especificado no existe en el equipo remoto.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:30:10]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: loli2000
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:30:45]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: loli2000
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "loli2000"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:30:59]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 
+  Nueva Contraseña Usuario: loli2000
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:31:17]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: loli2000
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "loli2000"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:31:40]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "123"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:32:08]------
+ IP Remota del Cliente: 127.0.0.1
+Acceso no autorizado para la IP: 127.0.0.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:32:17]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "123"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:32:31]------
+ IP Remota del Cliente: 127.0.0.1
+Acceso no autorizado para la IP: 127.0.0.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:32:50]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 321
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "321"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:33:31]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "123"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:35:12]------
+ IP Remota del Cliente: 186.10.5.69
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "123"; "jrami
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:36:43]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP Maquina Virtual: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "123"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:38:16]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP Maquina Virtual: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "123"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 09:38:52]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP Maquina Virtual: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "123"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 10:01:15]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP Maquina Virtual: 
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 10:03:12]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP Maquina Virtual: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 10:03:45]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP Maquina Virtual: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Todos los campos son obligatorios.
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 10:04:35]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName "192.168.5.125" -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "123"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 10:07:04]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName 192.168.5.125 -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "123"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-06 10:08:19]------
+ IP Remota del Cliente: 192.168.5.1
+  Usuario Administrador: olson
+  Contraseña Administrador: 123
+  IP del Equipo Remoto: 192.168.5.125
+  Usuario Objetivo: 123
+  Nueva Contraseña Usuario: 123
+Comando PowerShell ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String "123" -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "olson", $securePass; Invoke-Command -ComputerName 192.168.5.125 -Credential $cred -ScriptBlock { param($targetUser, $newPass); if(Get-LocalUser -Name $targetUser -ErrorAction SilentlyContinue) { Set-LocalUser -Name $targetUser -Password (ConvertTo-SecureString -AsPlainText $newPass -Force); echo 'true'; } else { echo 'false'; } } -ArgumentList "123", "123"; "
+Salida de PowerShell: true
+
+Cambio de contraseña realizado con éxito para el usuario "123".
+---------- FIN ACCION ----------
+

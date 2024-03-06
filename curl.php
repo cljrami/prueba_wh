@@ -1,21 +1,21 @@
 <?php
 // Define las variables
-$admin_user = 'jrami_pruebas';
-$admin_pass = 'jrami_pruebas';
-$ip_destino = '192.168.5.131';
-$target_user = 'jrami_pruebas2';
-$user_pass = 'jrami_pruebas'; // Ejemplo de contraseña
+$usuario_control = 'olson';
+$password_control = '123';
+$ip_cliente = '192.168.5.136';
+$usuario_cliente = '123';
+$password_cliente = '123'; // Ejemplo de contraseña
 
 // Define la URL del script remoto
-$url = 'https://vps06.xhost.cl/prueba_whmcs/prueba_ok.php';
+$url = 'https://vps06.xhost.cl/prueba_whmcs/changePass.php';
 
 // Crea un arreglo asociativo con las variables
 $post_data = [
-    'admin_user' => $admin_user,
-    'admin_pass' => $admin_pass,
-    'ip_destino' => $ip_destino,
-    'target_user' => $target_user,
-    'user_pass' => $user_pass,
+    'usuario_control' => $usuario_control,
+    'password_control' => $password_control,
+    'ip_cliente' => $ip_cliente,
+    'usuario_cliente' => $usuario_cliente,
+    'password_cliente' => $password_cliente,
 ];
 
 // Configura la solicitud cURL
@@ -29,6 +29,9 @@ $response = curl_exec($ch);
 
 // Cierra la conexión cURL
 curl_close($ch);
+// Obtiene la información del log remoto
+$log_url = 'https://vps06.xhost.cl/prueba_whmcs/log.txt';
+$log_content = file_get_contents($log_url);
 
 // Verifica si el cambio de contraseña se realizó con éxito
 if (strpos($response, "Cambio de contraseña realizado con éxito") !== false) {
@@ -45,9 +48,7 @@ if (strpos($response, "Cambio de contraseña realizado con éxito") !== false) {
     echo '</script>';
 }
 
-// Obtiene la información del log remoto
-$log_url = 'https://vps06.xhost.cl/prueba_whmcs/log.txt';
-$log_content = file_get_contents($log_url);
+
 
 // Guarda la información del log remoto en un archivo local
 file_put_contents('log.txt', $log_content);
