@@ -1,0 +1,15 @@
+
+2024-03-07 10:00:16 - Resultado de ping a 192.168.5.125: IP 192.168.5.125 existe.2024-03-07 10:00:35 - Resultado de ping a 192.168.5.125: IP 192.168.5.125 existe.2024-03-07 10:00:50 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+
+2024-03-07 10:01:03 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+2024-03-07 10:01:55 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+2024-03-07 10:02:20 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+2024-03-07 10:02:31 - Resultado de ping a 192.168.5.125: IP 192.168.5.125 existe.2024-03-07 10:07:17 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+2024-03-07 10:07:36 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+2024-03-07 10:07:51 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+
