@@ -7,7 +7,7 @@ ini_set("date.timezone", "America/Santiago");
 $usuario_control = "olson";
 $password_control = "123";
 $ip_cliente = "192.168.5.125";
-$usuario_cliente = "123";
+$usuario_cliente = "1235";
 $password_cliente = "1234";
 
 /*-------------------------------------------------------------- 
