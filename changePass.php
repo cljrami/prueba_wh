@@ -14,29 +14,9 @@ $password_cliente = $_POST['password_cliente'];
 // Aquí puedes procesar las variables recibidas según tus necesidades
 // Por ejemplo, podrías llamar a las funciones definidas en tu script original, como ping y PowerShellCC.
 
-
-
 /*-------------------------------------------------------------- 
 ## FUNCION PING
 ----------------------------------------------------------------*/
-//function ping($ip_cliente)
-//{
-//  $status = -2; // Definimos código -2 solo para inicializar variable. Si la función lo entrega es que ni siquiera tiene habilitada la función fsockopen
-//  $puerto = 5985; // Puerto de WinRM
-
-// Realizar un ping a la dirección IP
-//$file = fsockopen($ip_cliente, $puerto, $errno, $errstr, 10);
-
-// Verificar si la conexión se estableció con éxito
-// if (!$file) {
-// $status = -1; // Si fsockopen falla, retornamos error -1
-// } else {
-//  fclose($file);
-//$status = 0; // Si la máquina existe, hace ping al puerto y está disponible, retornamos código de ejecución 0.
-//}
-
-//return $status;
-//}
 function ping($ip_cliente)
 {
   $status = -2; // Definimos código -2 solo para inicializar variable. Si la función lo entrega es que ni siquiera tiene habilitada la función fsockopen
@@ -57,6 +37,7 @@ function ping($ip_cliente)
 
   return $status;
 }
+
 /*-------------------------------------------------------------- 
 ## FUNCION POWERSHELL
 ----------------------------------------------------------------*/
@@ -80,10 +61,10 @@ function PowerShellCC($usuario_control, $password_control, $ip_cliente, $usuario
   $output = shell_exec($command);
 
   // Crear el mensaje de registro
-  $logMessage = date('Y-m-d H:i:s') . " - Usuario: $usuario_control - Usuario Cambiado: $usuario_cliente - Resultado: $output\n";
+  $logMessage = date('Y-m-d H:i:s') . " - UsuarioControl: $usuario_control - UsuarioCliente: $usuario_cliente - Resultado: $output\n";
 
-  // Guardar el mensaje en el archivo de registro changepass.txt
-  file_put_contents('changepass.txt', $logMessage, FILE_APPEND);
+  // Guardar el mensaje en el archivo de registro debug_log.log
+  file_put_contents('debug_log.log', $logMessage, FILE_APPEND);
 
   return $output;
 }
@@ -96,30 +77,31 @@ $logMessageDebug = date('Y-m-d H:i:s') . " - Resultado de ping a $ip_cliente: ";
 
 if ($pingStatus === 0) {
   $logMessageDebug .= "Disponible";
-  echo "La dirección IP y el puerto están disponibles.\n";
+  $echoMessage = "La dirección IP y el puerto están disponibles.\n";
+  echo $echoMessage;
+  // Guardar el mensaje de depuración en el archivo de registro debug_log.log
+  file_put_contents('debug_log.log', $logMessageDebug . " - " . $echoMessage, FILE_APPEND);
   //Verificar si el usuario cliente existe en la máquina remota
   $resultado = PowerShellCC($usuario_control, $password_control, $ip_cliente, $usuario_cliente, $password_cliente);
 
   // Registro de resultados de depuración PHP
   $logMessageDebug .= " - Resultado de PowerShellCC: $resultado\n";
   if (trim($resultado) === '0') {
-    echo "La contraseña del usuario ha sido cambiada con éxito.";
+    $echoMessage = "La contraseña del usuario ha sido cambiada con éxito.";
   } elseif (trim($resultado) === '-1') {
-    echo "El usuario $usuario_cliente no existe en la máquina remota.";
+    $echoMessage = "El usuario $usuario_cliente no existe en la máquina remota.";
   } else {
-    echo "Error al ejecutar el script de PowerShell.";
+    $echoMessage = "Error al ejecutar el script de PowerShell.";
   }
 } elseif ($pingStatus === -1) {
   $logMessageDebug .= "No disponible";
-  echo "La dirección IP o el puerto no están disponibles.";
+  $echoMessage = "La dirección IP o el puerto no están disponibles.";
 } else {
   $logMessageDebug .= "IP $ip_cliente existe.";
-  echo "La dirección IP $ip_cliente existe.";
+  $echoMessage = "La dirección IP $ip_cliente existe.";
 }
 
-
-
 // Mostrar los resultados de depuración
-echo $logMessageDebug;
-// Guardar el mensaje de depuración en el archivo de registro debug_log.txt
-file_put_contents('debug_log.txt', $logMessageDebug, FILE_APPEND);
+echo $echoMessage;
+// Guardar el mensaje de depuración en el archivo de registro debug_log.log
+file_put_contents('debug_log.log', $logMessageDebug . " - " . $echoMessage, FILE_APPEND);

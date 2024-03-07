@@ -4,7 +4,7 @@ $usuario_control = "olson";
 $password_control = "123";
 $ip_cliente = "192.168.5.125";
 $usuario_cliente = "123";
-$password_cliente = "loli2000";
+$password_cliente = "lala3";
 
 // Crear array con las variables a enviar
 $data = array(
@@ -38,8 +38,8 @@ if ($response === false) {
     // Si la respuesta es 0 o 1, mostrar un mensaje correspondiente
     if ($response == 0) {
         echo 'La respuesta del servidor receptor es: 0';
-    } elseif ($response == 1) {
-        echo 'La respuesta del servidor receptor es: 1';
+    } elseif ($response == -1) {
+        echo 'La respuesta del servidor receptor es: -1';
     } else {
         echo 'Respuesta del servidor receptor: ' . $response;
     }
