@@ -4,7 +4,7 @@ $usuario_control = "olson";
 $password_control = "123";
 $ip_cliente = "192.168.5.125";
 $usuario_cliente = "123";
-$password_cliente = "000000";
+$password_cliente = "123";
 
 // Crear array con las variables a enviar
 $data = array(
@@ -25,7 +25,9 @@ $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-
+// Verificación del certificado SSL del host remoto
+curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 // Ejecutar la solicitud y obtener la respuesta
 $response = curl_exec($ch);
 

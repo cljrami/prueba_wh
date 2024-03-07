@@ -1,154 +1,23 @@
-2024-03-06 22:35:39 - Comando ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String '123' -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList 'olson', $securePass; $result = Invoke-Command -ComputerName 192.168.5.125 -Credential $cred -ScriptBlock { param($usuario_cliente, $password_cliente); if(Get-LocalUser -Name $usuario_cliente -ErrorAction SilentlyContinue) { Set-LocalUser -Name $usuario_cliente -Password (ConvertTo-SecureString -AsPlainText $password_cliente -Force); return '0'; } else { return '-1'; } } -ArgumentList 123, '1111111111'; echo $result; " - Resultado: 0
+2024-03-07 12:46:00 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
 
-2024-03-06 22:35:56 - Comando ejecutado: powershell -Command "$securePass = ConvertTo-SecureString -String '123' -AsPlainText -Force; $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList 'olson', $securePass; $result = Invoke-Command -ComputerName 192.168.5.125 -Credential $cred -ScriptBlock { param($usuario_cliente, $password_cliente); if(Get-LocalUser -Name $usuario_cliente -ErrorAction SilentlyContinue) { Set-LocalUser -Name $usuario_cliente -Password (ConvertTo-SecureString -AsPlainText $password_cliente -Force); return '0'; } else { return '-1'; } } -ArgumentList 1235, '1111111111'; echo $result; " - Resultado: -1
+2024-03-07 12:52:33 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
 
-2024-03-06 18:40:17 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
+2024-03-07 12:55:17 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
 
-2024-03-06 18:40:32 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
+2024-03-07 13:19:46 - Usuario: olson4 - Usuario Cambiado: 123 - Resultado: 
+2024-03-07 13:20:14 - Usuario: olson4 - Usuario Cambiado: 123 - Resultado: 
+2024-03-07 13:20:35 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
 
-2024-03-06 18:45:51 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
+2024-03-07 13:22:29 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
 
-2024-03-06 18:46:05 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 
-2024-03-07 08:26:24 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
+2024-03-07 13:22:42 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
 
-2024-03-07 08:31:42 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
+2024-03-07 13:22:52 - Usuario: olson4 - Usuario Cambiado: 123 - Resultado: 
+2024-03-07 13:25:11 - Usuario_Control: olson4 - Usuario_Cliente: 123 - Resultado: 
+2024-03-07 13:25:40 - Usuario: olson4 - Usuario Cambiado: 123 - Resultado: 
+2024-03-07 13:26:18 - Usuario: olson4 - Usuario Cambiado: 123 - Resultado: 
+2024-03-07 13:27:57 - Usuario: olson4 - Usuario Cambiado: 123 - Resultado: 
+2024-03-07 13:28:11 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
 
-2024-03-07 08:32:58 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 
-2024-03-07 08:46:48 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 08:49:32 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 08:50:50 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 08:51:31 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 08:51:49 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 08:52:01 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 08:54:33 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 08:54:55 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 08:56:14 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 08:57:28 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 08:57:48 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 08:58:06 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 09:00:22 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 09:01:17 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 09:03:37 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 09:03:46 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 09:04:02 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 09:04:45 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 09:04:55 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 09:05:14 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 09:05:33 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 09:06:32 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 09:08:42 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 09:08:57 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 09:09:11 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 09:09:58 - Usuario: olson - Usuario Cambiado: 1233 - Resultado: -1
-
-2024-03-07 09:29:15 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 09:29:56 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 09:35:21 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 09:43:32 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 09:47:55 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 09:48:13 - Usuario: olson - Usuario Cambiado: 12 - Resultado: -1
-
-2024-03-07 09:48:24 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 09:48:38 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 09:51:26 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 09:56:36 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
-
-2024-03-07 09:57:06 - Usuario: olson2 - Usuario Cambiado: 1235 - Resultado: 
-2024-03-07 09:57:33 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
-
-2024-03-07 10:00:52 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
-
-2024-03-07 10:01:07 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 10:01:55 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 
-2024-03-07 10:07:20 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 10:07:38 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 10:07:53 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 10:14:32 - Usuario:  - Usuario Cambiado:  - Resultado: 
-2024-03-07 10:16:31 - Usuario:  - Usuario Cambiado:  - Resultado: 
-2024-03-07 10:16:55 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 10:21:08 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 10:27:42 - Usuario:  - Usuario Cambiado:  - Resultado: 
-2024-03-07 10:28:05 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 10:28:21 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 10:31:51 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 10:31:59 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 10:32:10 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 10:32:59 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 10:33:13 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
-
-2024-03-07 10:33:25 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 10:33:48 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
-
-2024-03-07 10:34:40 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
-
-2024-03-07 10:43:08 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
-
-2024-03-07 10:49:12 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
-
-2024-03-07 10:53:46 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
-
-2024-03-07 11:01:55 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
-
-2024-03-07 11:02:28 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 11:07:31 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 11:07:41 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 11:26:17 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 11:26:31 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
-
-2024-03-07 11:27:45 - Usuario:  - Usuario Cambiado:  - Resultado: 
-2024-03-07 11:27:54 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 11:28:23 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
-
-2024-03-07 11:32:44 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
+2024-03-07 13:28:32 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
 

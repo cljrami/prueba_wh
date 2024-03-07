@@ -11,6 +11,9 @@ $ip_cliente = $_POST['ip_cliente'];
 $usuario_cliente = $_POST['usuario_cliente'];
 $password_cliente = $_POST['password_cliente'];
 
+// Aquí puedes procesar las variables recibidas según tus necesidades
+// Por ejemplo, podrías llamar a las funciones definidas en tu script original, como ping y PowerShellCC.
+
 
 
 /*-------------------------------------------------------------- 
