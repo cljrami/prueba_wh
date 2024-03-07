@@ -51,7 +51,7 @@ if (in_array($remote_ip, $allowed_ips)) {
 } else {
   echo "Acceso no autorizado para la IP: $remote_ip\n";
 }
-//FIN GET IP
+//FIN GET IP17-03-2024
 
 /*-------------------------------------------------------------- 
 ## FUNCION PING
