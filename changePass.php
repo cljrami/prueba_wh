@@ -11,7 +11,7 @@ $ip_cliente = $_POST['ip_cliente'];
 $usuario_cliente = $_POST['usuario_cliente'];
 $password_cliente = $_POST['password_cliente'];
 
-// GET IP
+// GET IP17-03-2024
 function getIp(): string
 {
   if (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) { // Soporte de Cloudflare
