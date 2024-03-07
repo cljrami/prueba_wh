@@ -38,3 +38,30 @@
 
 2024-03-07 10:33:46 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
 
+2024-03-07 10:34:38 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+
+2024-03-07 10:43:06 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+
+2024-03-07 10:49:10 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+
+2024-03-07 10:53:44 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+
+2024-03-07 11:01:51 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+
+2024-03-07 11:02:26 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+2024-03-07 11:07:29 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+2024-03-07 11:07:39 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+
+2024-03-07 11:26:15 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+
+2024-03-07 11:26:29 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+
+2024-03-07 11:27:44 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+2024-03-07 11:27:52 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+2024-03-07 11:28:21 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+2024-03-07 11:31:51 - Resultado de ping a 192.168.5.124: No disponible2024-03-07 11:32:42 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+

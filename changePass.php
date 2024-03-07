@@ -4,11 +4,14 @@ ini_set("date.timezone", "America/Santiago");
 /*-------------------------------------------------------------- 
 ## VARIABLES 
 ----------------------------------------------------------------*/
-$usuario_control = "olson";
-$password_control = "123";
-$ip_cliente = "192.168.5.125";
-$usuario_cliente = "1235";
-$password_cliente = "1234";
+// Recibir las variables enviadas por cURL
+$usuario_control = $_POST['usuario_control'];
+$password_control = $_POST['password_control'];
+$ip_cliente = $_POST['ip_cliente'];
+$usuario_cliente = $_POST['usuario_cliente'];
+$password_cliente = $_POST['password_cliente'];
+
+
 
 /*-------------------------------------------------------------- 
 ## FUNCION PING
@@ -110,6 +113,8 @@ if ($pingStatus === 0) {
   $logMessageDebug .= "IP $ip_cliente existe.";
   echo "La dirección IP $ip_cliente existe.";
 }
+
+
 
 // Mostrar los resultados de depuración
 echo $logMessageDebug;

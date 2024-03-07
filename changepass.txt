@@ -125,3 +125,30 @@
 
 2024-03-07 10:33:48 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
 
+2024-03-07 10:34:40 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
+
+2024-03-07 10:43:08 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
+
+2024-03-07 10:49:12 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
+
+2024-03-07 10:53:46 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
+
+2024-03-07 11:01:55 - Usuario: olson - Usuario Cambiado: 1235 - Resultado: -1
+
+2024-03-07 11:02:28 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
+
+2024-03-07 11:07:31 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
+
+2024-03-07 11:07:41 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
+
+2024-03-07 11:26:17 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
+
+2024-03-07 11:26:31 - Usuario: olson - Usuario Cambiado: 1234 - Resultado: -1
+
+2024-03-07 11:27:45 - Usuario:  - Usuario Cambiado:  - Resultado: 
+2024-03-07 11:27:54 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
+
+2024-03-07 11:28:23 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
+
+2024-03-07 11:32:44 - Usuario: olson - Usuario Cambiado: 123 - Resultado: 0
+
