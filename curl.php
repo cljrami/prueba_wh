@@ -4,7 +4,7 @@ $usuario_control = "olson";
 $password_control = "123";
 $ip_cliente = "192.168.5.125";
 $usuario_cliente = "123";
-$password_cliente = "lala3";
+$password_cliente = "lala4";
 
 // Crear array con las variables a enviar
 $data = array(
