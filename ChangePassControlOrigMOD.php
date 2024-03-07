@@ -4,22 +4,22 @@ function vpc_ChangePassword(array $params) // funcional
     try {
         if ($params['server'] == 1) {
             // Definir los datos a enviar
-            $usuario_control = "olson";
-            $password_control = "123";
-            $ip_cliente = "192.168.5.125";
-            $usuario_cliente = "123";
-            $password_cliente = "123456789";
+            //$usuario_control = "olson";
+            //$password_control = "123";
+            //$ip_cliente = "192.168.5.125";
+            //$usuario_cliente = "123";
+            //$password_cliente = "123456789";
 
             $postvars = array(
                 'key' => $params['serveraccesshash'],
                 'action' => 'udp',
                 // 'user' => $params['username'],
                 // 'pass' => $params['password'],
-                'usuario_control' => $usuario_control,
-                'password_control' => $password_control,
-                'ip_cliente' => $ip_cliente,
-                'usuario_cliente' => $usuario_cliente,
-                'password_cliente' => $password_cliente
+                'usuario_control' => $params['usuario_control'],
+                'password_control' => $params['password_control'],
+                'ip_cliente' => $params['ip_cliente'],
+                'usuario_cliente' => $params['usuario_cliente'],
+                'password_cliente' => $params['password_cliente'],
             );
             $postdata = http_build_query($postvars);
 
