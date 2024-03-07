@@ -3,7 +3,7 @@ function vpc_ChangePassword(array $params) // funcional
 {
     try {
         if ($params['server'] == 1) {
-            // Definir los datos a enviar
+            // Definir los datos a enviars
             //$usuario_control = "olson";
             //$password_control = "123";
             //$ip_cliente = "192.168.5.125";
