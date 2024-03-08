@@ -1,35 +1,46 @@
 <?php
-function vpc_ChangePassword(array $params) // funcional
+function pcv_CambioPassword(array $params) // funcional
 {
     try {
         if ($params['server'] == 1) {
-            // Definir los datos a enviars
-            //$usuario_control = "olson";
-            //$password_control = "123";
-            //$ip_cliente = "192.168.5.125";
-            //$usuario_cliente = "123";
-            //$password_cliente = "123456789";
+            //parametros Servidor
+
+            // Definir los datos a enviar a maquina control
+            //$ip_cliente = "ip pvc";
+            //$usuario_control = "admin pvc";
+            //$password_control = "pass admin pvc";
+            //$usuario_cliente = "usuario pvc";
+            //$password_cliente = "pass usuario pvs";
 
             $postvars = array(
-                'key' => $params['serveraccesshash'],
+                ///MODIFICACIONES
+                //--PARAMS que se obtienen de WHM--//
                 'action' => 'udp',
-                // 'user' => $params['username'],
-                // 'pass' => $params['password'],
-                'usuario_control' => $params['usuario_control'],
-                'password_control' => $params['password_control'],
-                'ip_cliente' => $params['ip_cliente'],
-                'usuario_cliente' => $params['usuario_cliente'],
-                'password_cliente' => $params['password_cliente'],
+                //'key' => $params['serveraccesshash'],
+                //ADMIN PCV
+                'username' => $params['serverusername'],
+                'pass' => $params['por_definir'],
+                //IP VPC
+                'domain' => $params['serverhostname'],
+                //CLIENTE PCV
+                'user' => $params['username'],
+                'pass' => $params['password'],
+                //--FIN PARAMS--//
+                //FIN MODIFICACIONES
+
+
             );
             $postdata = http_build_query($postvars);
 
             // Construir la URL del servidor
-            $url = 'https://vps06.xhost.cl/prueba_whmcs/changePass.php';
-            // $url = 'https://' . $params['serverhostname'] . ':' . $params['serverport'] . '/v1/changepass';
+            //original
+            //$url = 'https://' . $params['serverhostname'] . ':' . $params['serverport'] . '/v1/changepass';
+            //propuesta rapida "Verificar"
+            $url = 'https://vps06.xhost.cl/prueba_whmcs/changePass_back.php'; //cual ser la ruta para la url de script en mauina de control
+            //$url = 'https://server05.xhost.cl/ruta-a-script';
 
             // Inicializar cURL
             $curl = curl_init();
-
             // Configurar la solicitud cURL
             curl_setopt($curl, CURLOPT_URL, $url);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
@@ -38,10 +49,8 @@ function vpc_ChangePassword(array $params) // funcional
             curl_setopt($curl, CURLOPT_CUSTOMREQUEST, 'POST');
             curl_setopt($curl, CURLOPT_POST, true);
             curl_setopt($curl, CURLOPT_POSTFIELDS, $postdata);
-
             // Ejecutar la solicitud y obtener la respuesta
             $response = curl_exec($curl);
-
             // Verificar si hubo algún error
             if ($response === false) {
                 logModuleCall(
@@ -62,13 +71,12 @@ function vpc_ChangePassword(array $params) // funcional
                 );
                 return $response;
             }
-
             // Cerrar la sesión cURL
             curl_close($curl);
         }
     } catch (Exception $e) {
         logModuleCall(
-            'vpc',
+            'pcv',
             __FUNCTION__,
             $params,
             $e->getMessage(),

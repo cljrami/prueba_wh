@@ -1,0 +1,4 @@
+2024-03-08 15:11:20 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: La contraseña del usuario 123 en la IP 192.168.5.125 ha sido cambiada con éxito. La nueva contraseña es 123456 
+2024-03-08 16:27:17 - UsuarioControl:  - UsuarioCliente:  - Resultado: Error al ejecutar el script de PowerShell.
+2024-03-08 16:54:53 - UsuarioControl:  - UsuarioCliente:  - Resultado: Error al ejecutar el script de PowerShell.
+2024-03-08 16:55:54 - UsuarioControl:  - UsuarioCliente:  - Resultado: Error al ejecutar el script de PowerShell.
