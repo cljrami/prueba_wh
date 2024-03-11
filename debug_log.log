@@ -1,257 +1,238 @@
-2024-03-07 15:16:44 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:16:45 - UsuarioControl: olson - UsuarioCliente: 1234 - Resultado: -1
+2024-03-11 12:06:15 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 12:06:20 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
 
-2024-03-07 15:16:44 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+2024-03-11 12:06:15 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
 
- - El usuario 1234 no existe en la máquina remota.2024-03-07 15:17:37 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:17:40 - UsuarioControl: olson - UsuarioCliente: 1234 - Resultado: -1
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 1236 2024-03-11 12:17:32 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 12:17:35 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 12:17:32 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 12:18:17 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 12:18:22 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 12:18:17 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 12:18:28 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 12:18:30 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 12:18:28 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 12:18:39 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 12:18:40 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 12:18:39 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 12:18:45 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 12:18:49 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 12:18:45 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 1236 2024-03-11 12:27:58 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 12:28:05 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
 
-2024-03-07 15:17:37 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+2024-03-11 12:27:58 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
 
- - El usuario 1234 no existe en la máquina remota.2024-03-07 15:18:10 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:18:12 - UsuarioControl: olson - UsuarioCliente: 1234 - Resultado: -1
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 1236 2024-03-11 12:32:34 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 12:32:38 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
 
-2024-03-07 15:18:10 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+2024-03-11 12:32:34 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
 
- - El usuario 1234 no existe en la máquina remota.2024-03-07 15:18:56 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:18:57 - UsuarioControl: olson - UsuarioCliente: 1234 - Resultado: -1
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 1236 2024-03-11 12:44:12 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 12:44:17 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
 
-2024-03-07 15:18:56 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+2024-03-11 12:44:12 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
 
- - El usuario 1234 no existe en la máquina remota.2024-03-07 15:23:30 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:23:32 - UsuarioControl: olson - UsuarioCliente: 1234 - Resultado: -1
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 1236 2024-03-11 12:46:57 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 12:47:02 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
 
-2024-03-07 15:23:30 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+2024-03-11 12:46:57 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
 
- - El usuario 1234 no existe en la máquina remota.2024-03-07 15:23:53 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:23:55 - UsuarioControl: olson - UsuarioCliente: 1234 - Resultado: -1
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 1236 2024-03-11 12:47:09 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 12:47:12 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
 
-2024-03-07 15:23:53 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+2024-03-11 12:47:09 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
 
- - El usuario 1234 no existe en la máquina remota.2024-03-07 15:24:31 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:24:33 - UsuarioControl: olson - UsuarioCliente: 1234 - Resultado: -1
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 1236 2024-03-11 12:49:52 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 12:49:55 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
 
-2024-03-07 15:24:31 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+2024-03-11 12:49:52 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
 
- - El usuario 1234 no existe en la máquina remota.2024-03-07 15:25:07 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:25:10 - UsuarioControl: olson - UsuarioCliente: 1234 - Resultado: -1
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 1236 2024-03-11 12:51:03 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 12:51:06 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 12:51:03 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
 
-2024-03-07 15:25:07 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-11 12:51:27 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 12:51:30 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
 
- - El usuario 1234 no existe en la máquina remota.2024-03-07 15:25:27 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:25:30 - UsuarioControl: olson - UsuarioCliente: 1234 - Resultado: -1
+2024-03-11 12:51:27 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
 
-2024-03-07 15:25:27 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-11 13:03:25 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 13:03:28 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
 
- - El usuario 1234 no existe en la máquina remota.2024-03-07 15:26:01 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:26:03 - UsuarioControl: olson2 - UsuarioCliente: 1234 - Resultado: 
-2024-03-07 15:26:01 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 
- - Error al ejecutar el script de PowerShell.2024-03-07 15:27:14 - Resultado de ping a 192.168.5.123: No disponible - La dirección IP o el puerto no están disponibles.2024-03-07 15:27:47 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:27:49 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+2024-03-11 13:03:25 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
 
-2024-03-07 15:27:47 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-11 13:04:20 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 13:04:21 - UsuarioControl:  - UsuarioCliente: 123 - Resultado: 
+2024-03-11 13:04:20 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 13:53:38 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 13:53:44 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
 
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-07 15:28:25 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:28:27 - UsuarioControl: olson2 - UsuarioCliente: 123 - Resultado: 
-2024-03-07 15:28:25 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 
- - Error al ejecutar el script de PowerShell.2024-03-07 15:30:18 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:30:20 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+2024-03-11 13:53:38 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
 
-2024-03-07 15:30:18 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-07 15:30:42 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:30:44 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 15:30:42 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-07 15:32:28 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:32:30 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 15:32:28 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-07 15:33:04 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:33:06 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 15:33:04 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-07 15:34:13 - Resultado de ping a 192.168.5.126: No disponible - La dirección IP o el puerto no están disponibles.2024-03-07 15:35:57 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:35:59 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 15:35:57 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-07 15:37:13 - Resultado de ping a 192.168.5.126: No disponible - La dirección IP o el puerto no están disponibles.2024-03-07 15:38:55 - Resultado de ping a 192.168.5.126: No disponible - La dirección IP o el puerto no están disponibles.2024-03-07 15:39:50 - Resultado de ping a 192.168.5.126: No disponible - La dirección IP o el puerto no están disponibles.2024-03-07 15:42:30 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:42:32 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 15:42:30 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-07 15:43:21 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:43:23 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 15:43:21 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-07 15:43:57 - Resultado de ping a 192.168.5.126: No disponible - La dirección IP o el puerto no están disponibles.2024-03-07 15:44:38 - Resultado de ping a 192.168.5.126: No disponible - La dirección IP o el puerto no están disponibles.2024-03-07 15:46:29 - Resultado de ping a 192.168.5.126: No disponible - La dirección IP o el puerto no están disponibles.2024-03-07 15:46:52 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 15:46:54 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 15:46:52 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-07 16:00:29 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 16:00:32 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 16:00:29 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-07 16:03:25 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 16:03:27 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 16:03:25 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-07 16:05:46 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 16:05:48 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 16:05:46 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-07 16:15:05 - Resultado de ping a 192.168.5.126: No disponible - La dirección IP o el puerto no están disponibles.2024-03-07 16:15:16 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 16:15:18 - UsuarioControl: olson - UsuarioCliente: 1234 - Resultado: -1
-
-2024-03-07 16:15:16 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
-
- - El usuario 1234 no existe en la máquina remota.2024-03-07 16:15:31 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 16:15:33 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 16:15:31 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-07 16:18:38 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 16:18:41 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 16:18:38 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-07 16:19:49 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 16:19:51 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 16:19:49 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-07 16:20:13 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 16:20:14 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 16:20:13 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-07 16:20:22 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 16:20:24 - UsuarioControl: olson - UsuarioCliente: 1234 - Resultado: -1
-
-2024-03-07 16:20:22 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
-
- - El usuario 1234 no existe en la máquina remota.2024-03-07 16:21:24 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 16:21:27 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 16:21:24 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-07 16:35:47 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 16:35:50 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
-2024-03-07 16:35:47 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
- - Error al ejecutar el script de PowerShell.2024-03-07 16:53:24 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 16:53:28 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 16:53:24 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-07 18:10:27 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 18:10:37 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 18:10:27 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-07 18:11:44 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 18:11:47 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 18:11:44 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-07 18:26:05 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 18:26:08 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 18:26:05 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-07 18:39:52 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-07 18:39:55 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-07 18:39:52 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-08 09:04:56 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 09:05:10 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-08 09:04:56 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-08 09:20:18 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 09:20:22 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-08 09:20:18 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-08 09:20:40 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 09:20:43 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-08 09:20:40 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-08 15:02:06 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 15:02:10 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
-2024-03-08 15:02:06 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
- - Error al ejecutar el script de PowerShell.2024-03-08 15:07:36 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 15:07:37 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
-2024-03-08 15:07:36 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
- - Error al ejecutar el script de PowerShell.2024-03-08 15:07:48 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 15:07:52 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-08 15:07:48 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456 2024-03-08 15:08:22 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 15:08:24 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-08 15:08:22 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456 2024-03-08 16:55:11 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 16:55:17 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-08 16:55:11 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-08 17:09:38 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 17:09:40 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
-2024-03-08 17:09:38 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
- - Error al ejecutar el script de PowerShell.2024-03-08 17:36:38 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 17:36:45 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
-2024-03-08 17:36:38 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
- - Error al ejecutar el script de PowerShell.2024-03-08 17:37:02 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 17:37:07 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-08 17:37:02 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 12345678 2024-03-08 17:37:37 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 17:37:39 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-08 17:37:37 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-08 17:44:13 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 17:44:16 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-08 17:44:13 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 12345678910 2024-03-08 17:44:55 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 17:44:57 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-08 17:44:55 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-08 17:46:19 - Resultado de ping a 192.168.5.126: No disponible - La dirección IP o el puerto no están disponibles.2024-03-08 17:46:40 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 17:46:42 - UsuarioControl: olson - UsuarioCliente: 1234 - Resultado: -1
-
-2024-03-08 17:46:40 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
-
- - El usuario 1234 no existe en la máquina remota.2024-03-08 17:47:06 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 17:47:08 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
-
-2024-03-08 17:47:06 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
-
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-08 17:47:40 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 17:47:43 - UsuarioControl: olson - UsuarioCliente: 1234 - Resultado: -1
-
-2024-03-08 17:47:40 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
-
- - El usuario 1234 no existe en la máquina remota.2024-03-08 18:09:15 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
-2024-03-08 18:09:18 - UsuarioControl: olson - UsuarioCliente: 1234 - Resultado: -1
-
-2024-03-08 18:09:15 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
-
- - El usuario 1234 no existe en la máquina remota.
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 1234 2024-03-11 14:06:55 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 14:06:58 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 14:06:55 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 1234 2024-03-11 14:43:35 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 14:43:40 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 14:43:35 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-11 14:47:49 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 14:47:53 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 14:47:49 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 14:58:22 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 14:58:26 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 14:58:22 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 14:58:56 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 14:58:59 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 14:58:56 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 15:00:43 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 15:00:45 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 15:00:43 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 15:06:14 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 15:06:16 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 15:06:14 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 15:07:08 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 15:07:09 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 15:07:08 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 15:07:41 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 15:07:43 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 15:07:41 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 15:08:49 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 15:08:51 - UsuarioControl: olson - UsuarioCliente:  - Resultado: 
+2024-03-11 15:08:49 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 15:09:42 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 15:09:45 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 15:09:42 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 15:10:35 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 15:10:43 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 
+2024-03-11 15:10:35 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 15:11:49 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 15:11:52 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 15:11:49 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-11 15:16:07 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 15:16:10 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 15:16:07 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-11 15:16:33 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 15:16:37 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 15:16:33 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-11 15:16:51 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 15:16:53 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 15:16:51 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-11 15:20:47 - Resultado de ping a serverhostname: No disponible - La dirección IP o el puerto no están disponibles.2024-03-11 15:21:22 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 15:21:25 - UsuarioControl: serverusername - UsuarioCliente: username - Resultado: 
+2024-03-11 15:21:22 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 15:21:57 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 15:21:59 - UsuarioControl: serverusername - UsuarioCliente: 123 - Resultado: 
+2024-03-11 15:21:57 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 15:22:20 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 15:22:24 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 15:22:20 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-11 15:31:22 - Resultado de ping a serverhostname: No disponible - La dirección IP o el puerto no están disponibles.2024-03-11 15:40:21 - Resultado de ping a cpvserverhostname: No disponible - La dirección IP o el puerto no están disponibles.2024-03-11 16:21:09 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:21:14 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 16:21:09 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 16:22:08 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:22:10 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 16:22:08 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 16:23:50 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:23:56 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 16:23:50 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-11 16:34:20 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:34:23 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 16:34:20 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-11 16:34:37 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:34:38 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 16:34:37 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 16:35:04 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:35:09 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 16:35:04 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-11 16:35:59 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:36:00 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 16:35:59 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 16:36:36 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:36:38 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 16:36:36 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 16:38:16 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:38:18 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 16:38:16 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 16:39:53 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:39:55 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 16:39:53 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 16:42:01 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:42:04 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 16:42:01 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-11 16:42:24 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:42:26 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 16:42:24 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 16:42:50 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:42:52 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 16:42:50 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 16:43:52 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:43:54 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 16:43:52 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-11 16:44:22 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:44:24 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 16:44:22 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 2024-03-11 16:44:46 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:44:48 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 16:44:46 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-11 16:44:57 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:45:01 - UsuarioControl: olson - UsuarioCliente:  - Resultado: 
+2024-03-11 16:44:57 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 16:45:17 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:45:20 - UsuarioControl: olson - UsuarioCliente: 123456 - Resultado: -1
+
+2024-03-11 16:45:17 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
+
+ - El usuario 123456 no existe en la máquina remota.2024-03-11 16:45:43 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 16:45:45 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 16:45:43 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-11 20:47:17 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 20:47:19 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 20:47:17 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 17:02:33 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 17:02:38 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 17:02:33 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 12345678 2024-03-11 17:03:11 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 17:03:13 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-11 17:03:11 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-11 17:07:54 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-11 17:07:58 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-11 17:07:54 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123 

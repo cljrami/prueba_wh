@@ -5,12 +5,25 @@ ini_set("date.timezone", "America/Santiago");
 ## VARIABLES 
 ----------------------------------------------------------------*/
 // Recibir las variables enviadas por cURL
-$usuario_control = $_POST['usuario_control'];
-$password_control = $_POST['password_control'];
-$ip_cliente = $_POST['ip_cliente'];
-$usuario_cliente = $_POST['usuario_cliente'];
-$password_cliente = $_POST['password_cliente'];
+$serverusername = "olson";
+$passwd = "123";
+$domain = "192.168.5.125";
+$user = "123";
+$pass = "123";
 
+if (isset($_POST['serverusername']) && isset($_POST['passwd']) && isset($_POST['domain']) && isset($_POST['user']) && isset($_POST['pass'])) {
+  // Acceder a los datos recibidos
+  //   $serverusername = $_POST['serverusername'];
+  //   $passwd = $_POST['passwd'];
+  //   $domain = $_POST['domain'];
+  //   $user = $_POST['user'];
+  //   $pass = $_POST['pass'];
+
+  // Continuar con el resto del script, por ejemplo, la función PowerShellCC
+  // Aquí debes integrar el resto de tu lógica y funciones
+} else {
+  echo "No se recibieron todos los parámetros esperados.";
+}
 // GET IP17-03-2024
 function getIp(): string
 {
@@ -43,7 +56,7 @@ function getIp(): string
 $remote_ip = getIp();
 
 // Lista de IPs permitidas (IPv4 e IPv6)
-$allowed_ips = array("186.10.5.69", "192.168.5.70", "192.168.5.1",);
+$allowed_ips = array("186.10.5.69", "192.168.5.70", "192.168.5.1");
 
 // Mostrar si la IP remota está permitida
 if (in_array($remote_ip, $allowed_ips)) {
@@ -56,13 +69,13 @@ if (in_array($remote_ip, $allowed_ips)) {
 /*-------------------------------------------------------------- 
 ## FUNCION PING
 ----------------------------------------------------------------*/
-function ping($ip_cliente)
+function ping($domain)
 {
   $status = -2; // Definimos código -2 solo para inicializar variable. Si la función lo entrega es que ni siquiera tiene habilitada la función fsockopen
   $puerto = 5985; // Puerto de WinRM
 
   // Intentar realizar un ping a la dirección IP
-  $file = @fsockopen($ip_cliente, $puerto, $errno, $errstr, 10);
+  $file = @fsockopen($domain, $puerto, $errno, $errstr, 10);
 
   // Verificar si se estableció la conexión
   if (!$file) {
@@ -80,19 +93,19 @@ function ping($ip_cliente)
 /*-------------------------------------------------------------- 
 ## FUNCION POWERSHELL
 ----------------------------------------------------------------*/
-function PowerShellCC($usuario_control, $password_control, $ip_cliente, $usuario_cliente, $password_cliente)
+function PowerShellCC($serverusername, $passwd, $domain, $user, $pass)
 {
   // Construir el comando de PowerShell
   $command = "powershell -Command \"";
-  $command .= "\$securePass = ConvertTo-SecureString -String $password_control -AsPlainText -Force; ";
-  $command .= "\$cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $usuario_control, \$securePass; ";
-  $command .= "\$result = Invoke-Command -ComputerName $ip_cliente -Credential \$cred -ScriptBlock { ";
-  $command .= "param(\$usuario_cliente, \$password_cliente); ";
-  $command .= "if(Get-LocalUser -Name \$usuario_cliente -ErrorAction SilentlyContinue) { ";
-  $command .= "Set-LocalUser -Name \$usuario_cliente -Password (ConvertTo-SecureString -AsPlainText \$password_cliente -Force); ";
+  $command .= "\$securePass = ConvertTo-SecureString -String $passwd -AsPlainText -Force; ";
+  $command .= "\$cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $serverusername, \$securePass; ";
+  $command .= "\$result = Invoke-Command -ComputerName $domain -Credential \$cred -ScriptBlock { ";
+  $command .= "param(\$user, \$pass); ";
+  $command .= "if(Get-LocalUser -Name \$user -ErrorAction SilentlyContinue) { ";
+  $command .= "Set-LocalUser -Name \$user -Password (ConvertTo-SecureString -AsPlainText \$pass -Force); ";
   $command .= "return '0'; ";
   $command .= "} else { return '-1'; } ";
-  $command .= "} -ArgumentList $usuario_cliente, '$password_cliente'; ";
+  $command .= "} -ArgumentList $user, '$pass'; ";
   $command .= "echo \$result; ";
   $command .= "\"";
 
@@ -100,7 +113,7 @@ function PowerShellCC($usuario_control, $password_control, $ip_cliente, $usuario
   $output = shell_exec($command);
 
   // Crear el mensaje de registro
-  $logMessage = date('Y-m-d H:i:s') . " - UsuarioControl: $usuario_control - UsuarioCliente: $usuario_cliente - Resultado: $output\n";
+  $logMessage = date('Y-m-d H:i:s') . " - UsuarioControl: $serverusername - UsuarioCliente: $user - Resultado: $output\n";
 
   // Guardar el mensaje en el archivo de registro debug_log.log
   file_put_contents('debug_log.log', $logMessage, FILE_APPEND);
@@ -109,10 +122,10 @@ function PowerShellCC($usuario_control, $password_control, $ip_cliente, $usuario
 }
 
 // Verificar la disponibilidad de la dirección IP y el puerto
-$pingStatus = ping($ip_cliente);
+$pingStatus = ping($domain);
 
 // Registro de resultados de depuración PHP
-$logMessageDebug = date('Y-m-d H:i:s') . " - Resultado de ping a $ip_cliente: ";
+$logMessageDebug = date('Y-m-d H:i:s') . " - Resultado de ping a $domain: ";
 
 if ($pingStatus === 0) {
   $logMessageDebug .= "Disponible";
@@ -121,14 +134,17 @@ if ($pingStatus === 0) {
   // Guardar el mensaje de depuración en el archivo de registro debug_log.log
   file_put_contents('debug_log.log', $logMessageDebug . " - " . $echoMessage, FILE_APPEND);
   //Verificar si el usuario cliente existe en la máquina remota
-  $resultado = PowerShellCC($usuario_control, $password_control, $ip_cliente, $usuario_cliente, $password_cliente);
+  $resultado = PowerShellCC($serverusername, $passwd, $domain, $user, $pass);
+
+
+
 
   // Registro de resultados de depuración PHP
   $logMessageDebug .= " - Resultado de PowerShellCC: $resultado\n";
   if (trim($resultado) === '0') {
-    $echoMessage = "La contraseña del usuario $usuario_cliente en la ip  $ip_cliente ha sido cambiada con éxito. La nueva constraseña es $password_cliente ";
+    $echoMessage = "La contraseña del usuario $user en la ip  $domain ha sido cambiada con éxito. La nueva constraseña es $pass ";
   } elseif (trim($resultado) === '-1') {
-    $echoMessage = "El usuario $usuario_cliente no existe en la máquina remota.";
+    $echoMessage = "El usuario $user no existe en la máquina remota.";
   } else {
     $echoMessage = "Error al ejecutar el script de PowerShell.";
   }
@@ -136,8 +152,8 @@ if ($pingStatus === 0) {
   $logMessageDebug .= "No disponible";
   $echoMessage = "La dirección IP o el puerto no están disponibles.";
 } else {
-  $logMessageDebug .= "IP $ip_cliente existe.";
-  $echoMessage = "La dirección IP $ip_cliente existe.";
+  $logMessageDebug .= "IP $domain existe.";
+  $echoMessage = "La dirección IP $domain existe.";
 }
 
 // Mostrar los resultados de depuración

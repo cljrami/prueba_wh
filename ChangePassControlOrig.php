@@ -5,7 +5,7 @@ function vpc_ChangePassword(array $params) // funcional
     try {
         if ($params['server'] == 1) {
             $postvars = array(
-                'key' => $params['serveraccesshash'],
+                //'key' => $params['serveraccesshash'],
                 'action' => 'udp', //update
                 'user' => $params['username'],
                 'pass' => $params['password']
