@@ -21,7 +21,7 @@ $serverusername = "olson";
 $passwordserver = "123";
 $domain = "192.168.5.125";
 $user = "123";
-$pass = "123456789";
+$pass = "12345678910";
 
 
 
@@ -45,18 +45,6 @@ $curl = curl_init();
 
 // URL de destino
 $url = 'https://vps06.xhost.cl/prueba_whmcs/changepasswordv2.php';
-
-// Verificar si la ruta del cURL existe
-if (!is_callable('curl_exec')) {
-    echo "La función cURL no está disponible en este servidor.";
-    exit;
-}
-
-// Verificar si la URL de destino es válida
-if (!$url) {
-    echo "La URL de destino no es válida.";
-    exit;
-}
 
 // Configurar las opciones de cURL
 curl_setopt($curl, CURLOPT_URL, $url);

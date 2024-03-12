@@ -40,7 +40,7 @@ function getIp(): string
 $remote_ip = getIp();
 
 // Lista de IPs permitidas (IPv4 e IPv6)
-$allowed_ips = array("186.10.5.69", "192.168.5.70",);
+$allowed_ips = array("186.10.5.69", "192.168.5.70", "192.168.5.1");
 
 // Mostrar si la IP remota está permitida
 if (in_array($remote_ip, $allowed_ips)) {
@@ -113,7 +113,7 @@ if (!empty($serverusername) && !empty($passwordserver) && !empty($domain) && !em
         // Verificar el resultado y devolver una respuesta adecuada
         if (trim($resultado) === '0') {
             // Contraseña cambiada con éxito
-            echo "La contraseña del usuario $user en la dirección IP $domain ha sido cambiada con éxito.";
+            echo "La contraseña del usuario $user en la dirección IP $domain ha sido cambiada con éxito. la nueva contraseña es $pass ";
         } elseif (trim($resultado) === '-1') {
             // Usuario no encontrado en la máquina remota
             echo "El usuario $user no existe en la máquina remota.";
