@@ -119,3 +119,4 @@
 
 2024-03-07 12:42:03 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: -1
 
+2024-03-12 11:17:46 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 

@@ -1,9 +1,9 @@
 <?php
 
 
-if (!defined("WHMCS")) {
-    die("This file cannot be accessed directly");
-}
+// if (!defined("WHMCS")) {
+//     die("This file cannot be accessed directly");
+// }
 function vpc_ChangePassword_MetaData()
 {
     return array(
@@ -69,3 +69,6 @@ function vpc_ChangePassword(array $params) // funcional
     }
     return $result;
 }
+
+
+//oh

@@ -6,24 +6,24 @@ ini_set("date.timezone", "America/Santiago");
 ----------------------------------------------------------------*/
 // Recibir las variables enviadas por cURL
 $serverusername = "olson";
-$passwd = "123";
+$passwordserver = "123";
 $domain = "192.168.5.125";
 $user = "123";
-$pass = "123";
+$pass = "123456789";
 
-if (isset($_POST['serverusername']) && isset($_POST['passwd']) && isset($_POST['domain']) && isset($_POST['user']) && isset($_POST['pass'])) {
-  // Acceder a los datos recibidos
-  //   $serverusername = $_POST['serverusername'];
-  //   $passwd = $_POST['passwd'];
-  //   $domain = $_POST['domain'];
-  //   $user = $_POST['user'];
-  //   $pass = $_POST['pass'];
+// if (isset($_POST['serverusername']) && isset($_POST['passwd']) && isset($_POST['domain']) && isset($_POST['user']) && isset($_POST['pass'])) {
+//   //   // Acceder a los datos recibidos
+//   $serverusername = $_POST['serverusername'];
+//   $passwd = $_POST['passwd'];
+//   $domain = $_POST['domain'];
+//   $user = $_POST['user'];
+//   $pass = $_POST['pass'];
 
-  // Continuar con el resto del script, por ejemplo, la función PowerShellCC
-  // Aquí debes integrar el resto de tu lógica y funciones
-} else {
-  echo "No se recibieron todos los parámetros esperados.";
-}
+//   // Continuar con el resto del script, por ejemplo, la función PowerShellCC
+//   // Aquí debes integrar el resto de tu lógica y funciones
+// } else {
+//   echo "No se recibieron todos los parámetros esperados.";
+// }
 // GET IP17-03-2024
 function getIp(): string
 {
@@ -93,11 +93,11 @@ function ping($domain)
 /*-------------------------------------------------------------- 
 ## FUNCION POWERSHELL
 ----------------------------------------------------------------*/
-function PowerShellCC($serverusername, $passwd, $domain, $user, $pass)
+function PowerShellCC($serverusername, $passwordserver, $domain, $user, $pass)
 {
   // Construir el comando de PowerShell
   $command = "powershell -Command \"";
-  $command .= "\$securePass = ConvertTo-SecureString -String $passwd -AsPlainText -Force; ";
+  $command .= "\$securePass = ConvertTo-SecureString -String $passwordserver -AsPlainText -Force; ";
   $command .= "\$cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $serverusername, \$securePass; ";
   $command .= "\$result = Invoke-Command -ComputerName $domain -Credential \$cred -ScriptBlock { ";
   $command .= "param(\$user, \$pass); ";
@@ -134,7 +134,7 @@ if ($pingStatus === 0) {
   // Guardar el mensaje de depuración en el archivo de registro debug_log.log
   file_put_contents('debug_log.log', $logMessageDebug . " - " . $echoMessage, FILE_APPEND);
   //Verificar si el usuario cliente existe en la máquina remota
-  $resultado = PowerShellCC($serverusername, $passwd, $domain, $user, $pass);
+  $resultado = PowerShellCC($serverusername, $passwordserver, $domain, $user, $pass);
 
 
 

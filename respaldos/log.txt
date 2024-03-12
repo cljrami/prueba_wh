@@ -1176,3 +1176,22 @@ Salida de PowerShell: true
 Cambio de contraseña realizado con éxito para el usuario "123".
 ---------- FIN ACCION ----------
 
+------INICIO ACCION [2024-03-12 12:53:30]------
+ IP Remota del Cliente: 127.0.0.1
+Acceso no autorizado para la IP: 127.0.0.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-12 12:54:02]------
+ IP Remota del Cliente: 127.0.0.1
+Acceso no autorizado para la IP: 127.0.0.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-12 12:54:10]------
+ IP Remota del Cliente: 127.0.0.1
+Acceso no autorizado para la IP: 127.0.0.1
+---------- FIN ACCION ----------
+
+------INICIO ACCION [2024-03-12 12:54:34]------
+ IP Remota del Cliente: 127.0.0.1
+---------- FIN ACCION ----------
+
