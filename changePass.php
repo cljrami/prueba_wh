@@ -12,15 +12,15 @@ $user = "123";
 $pass = "123456789";
 
 // if (isset($_POST['serverusername']) && isset($_POST['passwd']) && isset($_POST['domain']) && isset($_POST['user']) && isset($_POST['pass'])) {
-//   //   // Acceder a los datos recibidos
+//   // Acceder a los datos recibidos
 //   $serverusername = $_POST['serverusername'];
 //   $passwd = $_POST['passwd'];
 //   $domain = $_POST['domain'];
 //   $user = $_POST['user'];
 //   $pass = $_POST['pass'];
 
-//   // Continuar con el resto del script, por ejemplo, la función PowerShellCC
-//   // Aquí debes integrar el resto de tu lógica y funciones
+// Continuar con el resto del script, por ejemplo, la función PowerShellCC
+// Aquí debes integrar el resto de tu lógica y funciones
 // } else {
 //   echo "No se recibieron todos los parámetros esperados.";
 // }
@@ -160,3 +160,4 @@ if ($pingStatus === 0) {
 echo $echoMessage;
 // Guardar el mensaje de depuración en el archivo de registro debug_log.log
 file_put_contents('debug_log.log', $logMessageDebug . " - " . $echoMessage, FILE_APPEND);
+//ok

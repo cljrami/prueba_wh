@@ -1195,3 +1195,9 @@ Acceso no autorizado para la IP: 127.0.0.1
  IP Remota del Cliente: 127.0.0.1
 ---------- FIN ACCION ----------
 
+------INICIO ACCION [2024-03-12 16:36:06]------
+IP de Destino: 192.168.5.156
+IP Remota del Cliente: 127.0.0.1
+Acceso no autorizado para la IP: 127.0.0.1
+---------- FIN ACCION ----------
+

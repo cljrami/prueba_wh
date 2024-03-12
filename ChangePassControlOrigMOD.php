@@ -7,7 +7,7 @@
 function vpc_ChangePassword_MetaData()
 {
     return array(
-        'DisplayName' => 'vpc_ChangePassword Module',
+        'DisplayName' => 'Modulo vpc_ChangePassword ',
         'APIVersion' => '1.1', // Use API Version 1.1
         'RequiresServer' => true, // Set true if module requires a server to work
         'DefaultNonSSLPort' => '5985', // Default Non-SSL Connection Port
@@ -69,6 +69,3 @@ function vpc_ChangePassword(array $params) // funcional
     }
     return $result;
 }
-
-
-//oh

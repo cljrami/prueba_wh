@@ -628,4 +628,96 @@
 
 2024-03-12 15:33:04 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
 
- - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-12 15:39:21 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-12 15:39:23 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-12 15:39:21 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-12 15:39:55 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-12 15:39:56 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-12 15:39:55 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-12 15:42:22 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-12 15:42:24 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 15:42:22 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-12 15:46:32 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-12 15:46:34 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-12 15:46:32 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-12 15:47:59 - Resultado de ping a : Disponible - La dirección IP y el puerto están disponibles.
+2024-03-12 15:48:00 - UsuarioControl:  - UsuarioCliente:  - Resultado: 
+2024-03-12 15:47:59 - Resultado de ping a : Disponible - Resultado de PowerShellCC: 
+ - Error al ejecutar el script de PowerShell.2024-03-12 15:48:44 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-12 15:48:47 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 15:48:44 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-12 16:37:04 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-12 16:37:12 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 16:37:04 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-12 17:39:19 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-12 17:39:27 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 17:39:19 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-12 17:42:13 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-12 17:42:17 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 17:42:13 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-12 17:44:03 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-12 17:44:05 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 17:44:03 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-12 17:44:42 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-12 17:44:44 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 17:44:42 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-12 17:51:40 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 17:53:21 - UsuarioControl: olson - UsuarioCliente: 1234 - Resultado: -1
+
+2024-03-12 17:59:34 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-12 17:59:48 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 17:59:34 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-12 18:01:00 - Resultado de ping a 192.168.5.125: Disponible - La dirección IP y el puerto están disponibles.
+2024-03-12 18:01:03 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 18:01:00 - Resultado de ping a 192.168.5.125: Disponible - Resultado de PowerShellCC: 0
+
+ - La contraseña del usuario 123 en la ip  192.168.5.125 ha sido cambiada con éxito. La nueva constraseña es 123456789 2024-03-12 18:04:06 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 18:08:30 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 18:10:15 - UsuarioControl: olson - UsuarioCliente: 124 - Resultado: -1
+
+2024-03-12 18:11:17 - UsuarioControl: olson - UsuarioCliente: 124 - Resultado: -1
+
+2024-03-12 18:11:28 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 18:13:36 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 18:16:07 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 18:16:24 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 18:19:18 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 18:20:38 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 18:23:36 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 18:26:33 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 18:30:31 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 18:30:46 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 18:33:35 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-12 18:34:24 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+

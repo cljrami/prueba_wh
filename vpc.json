@@ -1,0 +1,29 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "vpc",
+  "license": "proprietary",
+  "category": "webhosting",
+  "description": {
+    "name": "VPC-XHOST",
+    "tagline": "Integración VPC XHOST",
+    "short": "En desarrollo...",
+    "long": "Modulo  Cambio De Constraseña En PVC"
+  },
+  
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.xhost.cl\/",
+    "learn_more": "https:\/\/control-webpanel.com\/features",
+    "support_url": "https:\/\/control-webpanel.com\/support-services",
+    "docs_url": "https:\/\/wiki.centos-webpanel.com\/"
+  },
+  "authors": [
+    {
+      "name": "XHOST",
+      "homepage": "https:\/\/www.xhost.cl\/"
+    }
+  ]
+}
