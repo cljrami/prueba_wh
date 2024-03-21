@@ -1,0 +1,12 @@
+array(5) {
+  ["serverusername"]=>
+  string(0) ""
+  ["passwordserver"]=>
+  string(0) ""
+  ["domain"]=>
+  string(0) ""
+  ["user"]=>
+  string(0) ""
+  ["pass"]=>
+  string(0) ""
+}
