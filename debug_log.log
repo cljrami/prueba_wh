@@ -700,3 +700,106 @@ passwordserver: '1234'
 domain: '164.77.174.26'
 user: ''
 pass: ''
+2024-03-22 12:16:02 - Datos recibidos por cURL:
+serverusername: 'jrami'
+serverpassword: '1234'
+domain: '164.77.174.26'
+user: ''
+pass: ''
+2024-03-22 12:16:24 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-22 12:16:24 - Datos recibidos por cURL:
+serverusername: 'olson'
+serverpassword: '123'
+domain: '192.168.5.125'
+user: '123'
+pass: '123'
+2024-03-22 12:16:55 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-22 12:16:55 - Datos recibidos por cURL:
+serverusername: 'olson'
+serverpassword: '123'
+domain: '192.168.5.125'
+user: '123'
+pass: '123'
+2024-03-22 12:17:34 - UsuarioControl: olson - UsuarioCliente: jrami_pruebas - Resultado: 
+2024-03-22 12:17:34 - Datos recibidos por cURL:
+serverusername: 'olson'
+serverpassword: '123'
+domain: '192.168.5.131'
+user: 'jrami_pruebas'
+pass: '123'
+2024-03-22 12:18:12 - UsuarioControl: jjrami_pruebas - UsuarioCliente: jrami_pruebas - Resultado: 
+2024-03-22 12:18:12 - Datos recibidos por cURL:
+serverusername: 'jjrami_pruebas'
+serverpassword: '1234'
+domain: '192.168.5.131'
+user: 'jrami_pruebas'
+pass: '123'
+2024-03-22 12:19:24 - UsuarioControl: jjrami_pruebas - UsuarioCliente: 123 - Resultado: 
+2024-03-22 12:19:24 - Datos recibidos por cURL:
+serverusername: 'jjrami_pruebas'
+serverpassword: '123'
+domain: '192.168.5.125'
+user: '123'
+pass: '1234'
+2024-03-22 12:19:50 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-22 12:19:50 - Datos recibidos por cURL:
+serverusername: 'olson'
+serverpassword: '123'
+domain: '192.168.5.125'
+user: '123'
+pass: '1234'
+2024-03-22 12:20:24 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-22 12:20:24 - Datos recibidos por cURL:
+serverusername: 'olson'
+serverpassword: '123'
+domain: '192.168.5.125'
+user: '123'
+pass: '123'
+2024-03-22 12:21:49 - Datos recibidos por cURL:
+serverusername: 'jrami'
+serverpassword: ''
+domain: ''
+user: ''
+pass: ''
+2024-03-22 12:36:54 - UsuarioControl: olson - UsuarioCliente: 123 - Resultado: 0
+
+2024-03-22 12:36:54 - Datos recibidos por cURL:
+serverusername: 'olson'
+serverpassword: '123'
+domain: '192.168.5.125'
+user: '123'
+pass: '123'
+2024-03-22 12:37:09 - Datos recibidos por cURL:
+serverusername: 'jrami'
+serverpassword: ''
+domain: ''
+user: ''
+pass: ''
+2024-03-22 12:45:31 - Datos recibidos por cURL:
+serverusername: 'jrami'
+serverpassword: ''
+domain: '164.77.174.26'
+user: ''
+pass: ''
+2024-03-22 12:46:09 - Datos recibidos por cURL:
+serverusername: 'jrami'
+serverpassword: ''
+domain: '164.77.174.26'
+user: ''
+pass: ''
+2024-03-22 12:46:17 - Datos recibidos por cURL:
+serverusername: 'jrami'
+serverpassword: ''
+domain: '164.77.174.26'
+user: ''
+pass: ''
+2024-03-22 12:47:10 - Datos recibidos por cURL:
+serverusername: 'jrami'
+serverpassword: '1234'
+domain: '164.77.174.26'
+user: ''
+pass: ''

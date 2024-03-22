@@ -51,11 +51,11 @@ function ping($domain)
 }
 
 // Función para ejecutar comandos de PowerShell
-function PowerShellCC($serverusername, $passwordserver, $domain, $user, $pass)
+function PowerShellCC($serverusername, $serverpassword, $domain, $user, $pass)
 {
     // Construir el comando de PowerShell
     $command = "powershell -Command \"";
-    $command .= "\$securePass = ConvertTo-SecureString -String $passwordserver -AsPlainText -Force; ";
+    $command .= "\$securePass = ConvertTo-SecureString -String $serverpassword -AsPlainText -Force; ";
     $command .= "\$cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $serverusername, \$securePass; ";
     $command .= "\$result = Invoke-Command -ComputerName $domain -Credential \$cred -ScriptBlock { ";
     $command .= "param(\$user, \$pass); ";
@@ -84,20 +84,20 @@ function procesar()
 {
     // Recibir los datos enviados por cURL
     $serverusername = isset($_REQUEST['username']) ? $_REQUEST['username'] : '';
-    $passwordserver = isset($_REQUEST['passwd']) ? $_REQUEST['passwd'] : '';
+    $serverpassword = isset($_REQUEST['passwd']) ? $_REQUEST['passwd'] : '';
     $domain = isset($_REQUEST['domain']) ? $_REQUEST['domain'] : '';
     $user = isset($_REQUEST['user']) ? $_REQUEST['user'] : '';
     $pass = isset($_REQUEST['pass']) ? $_REQUEST['pass'] : '';
 
     // Verificar si se recibieron todos los parámetros esperados
-    if (!empty($serverusername) && !empty($passwordserver) && !empty($domain) && !empty($user) && !empty($pass)) {
+    if (!empty($serverusername) && !empty($serverpassword) && !empty($domain) && !empty($user) && !empty($pass)) {
         // Verificar la disponibilidad de la dirección IP y el puerto
         $pingStatus = ping($domain);
 
         // Si el ping se realizó correctamente
         if ($pingStatus === 0) {
             // Ejecutar comandos de PowerShell para cambiar la contraseña
-            $resultado = PowerShellCC($serverusername, $passwordserver, $domain, $user, $pass);
+            $resultado = PowerShellCC($serverusername, $serverpassword, $domain, $user, $pass);
 
             // Verificar el resultado y devolver una respuesta adecuada
             if (trim($resultado) === '0') {
@@ -126,7 +126,7 @@ function procesar()
     // Crear una cadena con el volcado de los datos utilizando var_export
     $logMessage = date('Y-m-d H:i:s') . " - Datos recibidos por cURL:\n";
     $logMessage .= "serverusername: " . var_export($serverusername, true) . "\n";
-    $logMessage .= "passwordserver: " . var_export($passwordserver, true) . "\n";
+    $logMessage .= "serverpassword: " . var_export($serverpassword, true) . "\n";
     $logMessage .= "domain: " . var_export($domain, true) . "\n";
     $logMessage .= "user: " . var_export($user, true) . "\n";
     $logMessage .= "pass: " . var_export($pass, true) . "\n";
