@@ -21,9 +21,9 @@ function vpc_MetaData() // Función que define los datos del módulo almacenado 
     );
 }
 
-function vpc_Valores() // Función que obtienes los datos de los campos requeridos para enviar a control
-{
-}
+// function vpc_Valores() // Función que obtienes los datos de los campos requeridos para enviar a control
+// {
+// }
 
 
 

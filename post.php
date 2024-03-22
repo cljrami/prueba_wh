@@ -122,7 +122,24 @@ function procesar()
         // Si no se recibieron todos los parámetros esperados, devolver un mensaje de error
         echo json_encode(array('result' => 'No se recibieron datos'));
     }
+    //TEST 22032024
+    // Crear una cadena con el volcado de los datos utilizando var_export
+    $logMessage = date('Y-m-d H:i:s') . " - Datos recibidos por cURL:\n";
+    $logMessage .= "serverusername: " . var_export($serverusername, true) . "\n";
+    $logMessage .= "passwordserver: " . var_export($passwordserver, true) . "\n";
+    $logMessage .= "domain: " . var_export($domain, true) . "\n";
+    $logMessage .= "user: " . var_export($user, true) . "\n";
+    $logMessage .= "pass: " . var_export($pass, true) . "\n";
+    //
+    // Guardar el mensaje en el archivo de registro debug_log.log
+    file_put_contents('debug_log.log', $logMessage, FILE_APPEND);
+    //TEST 22032024
 }
+
+
+
+
+
 
 // Llamar a la función para procesar los datos recibidos por cURL
 procesar();
