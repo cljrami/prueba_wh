@@ -6,10 +6,6 @@ if (!defined("WHMCS")) {
 use WHMCS\Database\Capsule;
 
 
-
-
-
-
 function vpc_MetaData() // Función que define los datos del módulo almacenado en las opciones generales
 {
     return array(
@@ -20,12 +16,6 @@ function vpc_MetaData() // Función que define los datos del módulo almacenado 
         'DefaultSSLPort' => '5986',
     );
 }
-
-// function vpc_Valores() // Función que obtienes los datos de los campos requeridos para enviar a control
-// {
-// }
-
-
 
 // Función para configurar las opciones del módulo
 function vpc_ConfigOptions()
@@ -50,10 +40,6 @@ function vpc_ChangePassword($params)
             'user' => $params['user'],
             'pass' => $params['pass']
         );
-
-
-
-
 
         $postdata = http_build_query($postvars);
         //$url = 'https://vps06.xhost.cl/prueba_whmcs/vpc_ChangePassword_bk.php';
