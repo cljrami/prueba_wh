@@ -71,10 +71,10 @@ function PowerShellCC($serverusername, $serverpassword, $domain, $user, $pass)
     $output = shell_exec($command);
 
     // Crear el mensaje de registro
-    $logMessage = date('Y-m-d H:i:s') . " - UsuarioControl: $serverusername - UsuarioCliente: $user - Resultado: $output\n";
+    // $logMessage = date('Y-m-d H:i:s') . " - UsuarioControl: $serverusername - UsuarioCliente: $user - Resultado: $output\n";
 
     // Guardar el mensaje en el archivo de registro debug_log.log
-    file_put_contents('debug_log.log', $logMessage, FILE_APPEND);
+    // file_put_contents('debug_log.log', $logMessage, FILE_APPEND);
 
     return $output;
 }
@@ -124,7 +124,7 @@ function procesar()
     }
     //TEST 22032024
     // Crear una cadena con el volcado de los datos utilizando var_export
-    $logMessage = date('Y-m-d H:i:s') . " - Datos recibidos por cURL:\n";
+    $logMessage = date('Y-m-d H:i:s') . " - Datos recibidos:\n";
     $logMessage .= "serverusername: " . var_export($serverusername, true) . "\n";
     $logMessage .= "serverpassword: " . var_export($serverpassword, true) . "\n";
     $logMessage .= "domain: " . var_export($domain, true) . "\n";
