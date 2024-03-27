@@ -30,34 +30,28 @@ function vpc_ConfigOptions()
 
 
 //FUNCION GETDEDICATED_IP 26032024
+$command = 'GetClientsProducts';
+$postData = [
+    'clientid' => '47', // Asegúrate de usar un ID de cliente válido
+];
+//$adminUsername = 'jramirez'; // Opcional para WHMCS versión 7.2 y posterior
 
-function getWHMCSProductInfo()
-{
-    $command = 'GetClientsProducts';
-    $postData = array(
-        'clientid' => '47',
-    );
-    //$adminUsername = 'ADMIN_USERNAME'; // Optional for WHMCS 7.2 and later
+$results = localAPI($command, $postData,);
 
-    $results = localAPI($command);
-    //print_r($results)
-
+if ($results['result'] == 'success') {
+    // Recorre los productos del cliente
+    foreach ($results['products']['product'] as $product) {
+        // Verifica si existe un valor para dedicatedip
+        if (!empty($product['dedicatedip'])) {
+            echo "La dirección IP dedicada del producto " . $product['name'] . " es: " . $product['dedicatedip'] . "<br>";
+        }
+    }
+} else {
+    echo "Hubo un error al obtener los productos: " . $results['message'];
 }
 
-// Ejemplo de uso
 
-
-//$command = 'GetClientsProducts';
-//$postData = array(
-//    'clientid' => '47',
-//);
-//$adminUsername = 'ADMIN_USERNAME'; // Optional for WHMCS 7.2 and later
-
-//$results = localAPI($command, $postData);
-//print_r($results);
-//
-
-
+/////FIN
 
 
 // Función para realizar la solicitud cURL
