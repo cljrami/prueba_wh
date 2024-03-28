@@ -30,6 +30,10 @@ function vpc_ConfigOptions()
 
 
 //FUNCION GETDEDICATED_IP 26032024
+
+////////////////////
+
+////////////////////
 $command = 'GetClientsProducts';
 $postData = [
     'clientid' => '47', // Asegúrate de usar un ID de cliente válido
@@ -50,8 +54,7 @@ if ($results['result'] == 'success') {
     echo "Hubo un error al obtener los productos: " . $results['message'];
 }
 
-
-/////FIN
+//
 
 
 // Función para realizar la solicitud cURL
@@ -62,7 +65,8 @@ function vpc_ChangePassword($params)
         $postvars = array(
             'username' => $params['serverusername'],
             'passwd' => $params['serverpassword'],
-            //'domain' => $dedicatedip,
+            //'domain' => $ips[0]['ip'], 
+            //'domain' => $params['dedicatedip'],
             'domain' => $params['serverip'],
             'user' => $params['username'],
             'pass' => $params['password']
