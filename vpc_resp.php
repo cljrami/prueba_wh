@@ -29,9 +29,7 @@ function vpc_ConfigOptions()
 }
 
 
-//FUNCION order_id
 
-///
 function NumeroOrden()
 {
     //$command = 'GetClientsProducts';
@@ -44,44 +42,42 @@ function NumeroOrden()
 
     $results = localAPI($command, $postData);
 
-    if ($results['result'] == 'success' && !empty($results['orders']['order'])) {
-        $orderInfo = $results['orders']['order'][0];
-        $numeroOrden = $orderInfo['ordernum'];
-        echo "El número de orden es: " . $numeroOrden;
-    } else {
-        echo "No se pudo obtener el número de orden.";
-    }
+    // Usamos el operador de fusión null (??) para mostrar el número de orden si está disponible, de lo contrario, mostrar un mensaje de error
+    echo "El número de orden es: " . ($results['orders']['order'][0]['ordernum'] ?? "No se pudo obtener el número de orden.");
 }
 
 //  número de orden
 NumeroOrden();
 
 
-///
-
-
 
 ////DEDICATED_IP 27032024
-$command = 'GetClientsProducts';
-$postData = [
-    'clientid' => '47', // Asegúrate de usar un ID de cliente válido
+function IPdedicated()
+{
+    $command = 'GetClientsProducts';
+    $postData = [
+        'clientid' => '47', // Asegúrate de usar un ID de cliente válido
 
-];
-//$adminUsername = 'jramirez'; // Opcional para WHMCS versión 7.2 y posterior
+    ];
+    //$adminUsername = 'jramirez'; // Opcional para WHMCS versión 7.2 y posterior
 
-$results = localAPI($command, $postData,);
+    $results = localAPI($command, $postData,);
 
-if ($results['result'] == 'success') {
-    // Recorre los productos del cliente
-    foreach ($results['products']['product'] as $product) {
-        // Verifica si existe un valor para dedicatedip
-        if (!empty($product['dedicatedip'])) {
-            echo "La dirección IP dedicada del producto " . $product['name'] . " es: " . $product['dedicatedip'] . "<br>";
+    if ($results['result'] == 'success') {
+        // Recorre los productos del cliente
+        foreach ($results['products']['product'] as $product) {
+            // Verifica si existe un valor para dedicatedip
+            if (!empty($product['dedicatedip'])) {
+                echo "La dirección IP dedicada del producto " . $product['name'] . " es: " . $product['dedicatedip'] . "<br>";
+            }
         }
+    } else {
+        echo "Hubo un error al obtener los productos: " . $results['message'];
     }
-} else {
-    echo "Hubo un error al obtener los productos: " . $results['message'];
 }
+
+// IPdedicated
+IPdedicated();
 
 /////FIN 
 
