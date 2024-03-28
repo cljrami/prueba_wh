@@ -71,7 +71,7 @@ function PowerShellCC($serverusername, $serverpassword, $domain, $user, $pass)
     $output = shell_exec($command);
 
     // Crear el mensaje de registro
-    //$logMessage = date('Y-m-d H:i:s') . " - UsuarioControl: $serverusername - UsuarioCliente: $user - //Resultado: $output\n";
+    $logMessage = date('Y-m-d H:i:s') . " - UsuarioControl: $serverusername - UsuarioCliente: $user - Resultado: $output\n";
 
     // Guardar el mensaje en el archivo de registro debug_log.log
     file_put_contents('debug_log.log', /*$logMessage*/ FILE_APPEND);

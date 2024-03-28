@@ -29,14 +29,43 @@ function vpc_ConfigOptions()
 }
 
 
-//FUNCION GETDEDICATED_IP 26032024
+//FUNCION order_id
 
-////////////////////
+///
+function NumeroOrden()
+{
+    //$command = 'GetClientsProducts';
+    $command = 'GetOrders';
+    $postData = [
+        'orderid' => '47', // ID del pedido que deseas consultar automáticamente
+        //'pid' => '1', 
+    ];
+    //$adminUsername = 'ADMIN_USERNAME'; // Reemplaza 'ADMIN_USERNAME' con el nombre de usuario del administrador en WHMCS (opcional)
 
-////////////////////
+    $results = localAPI($command, $postData);
+
+    if ($results['result'] == 'success' && !empty($results['orders']['order'])) {
+        $orderInfo = $results['orders']['order'][0];
+        $numeroOrden = $orderInfo['ordernum'];
+        echo "El número de orden es: " . $numeroOrden;
+    } else {
+        echo "No se pudo obtener el número de orden.";
+    }
+}
+
+//  número de orden
+NumeroOrden();
+
+
+///
+
+
+
+////DEDICATED_IP 27032024
 $command = 'GetClientsProducts';
 $postData = [
     'clientid' => '47', // Asegúrate de usar un ID de cliente válido
+
 ];
 //$adminUsername = 'jramirez'; // Opcional para WHMCS versión 7.2 y posterior
 
@@ -54,7 +83,7 @@ if ($results['result'] == 'success') {
     echo "Hubo un error al obtener los productos: " . $results['message'];
 }
 
-//
+/////FIN 
 
 
 // Función para realizar la solicitud cURL
@@ -66,7 +95,7 @@ function vpc_ChangePassword($params)
             'username' => $params['serverusername'],
             'passwd' => $params['serverpassword'],
             //'domain' => $ips[0]['ip'], 
-            //'domain' => $params['dedicatedip'],
+            //'domain' => $dedicatedip, // Se utiliza la IP dedicada como dominio
             'domain' => $params['serverip'],
             'user' => $params['username'],
             'pass' => $params['password']
