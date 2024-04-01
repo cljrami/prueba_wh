@@ -30,56 +30,20 @@ function vpc_ConfigOptions()
 
 
 
-function NumeroOrden()
-{
-    //$command = 'GetClientsProducts';
-    $command = 'GetOrders';
-    $postData = [
-        'orderid' => '47', // ID del pedido que deseas consultar automáticamente
-        //'pid' => '1', 
-    ];
-    //$adminUsername = 'ADMIN_USERNAME'; // Reemplaza 'ADMIN_USERNAME' con el nombre de usuario del administrador en WHMCS (opcional)
-
-    $results = localAPI($command, $postData);
-
-    // Usamos el operador de fusión null (??) para mostrar el número de orden si está disponible, de lo contrario, mostrar un mensaje de error
-    echo "El número de orden es: " . ($results['orders']['order'][0]['ordernum'] ?? "No se pudo obtener el número de orden.");
-}
-
-//  número de orden
-NumeroOrden();
-
-
-
-////DEDICATED_IP 27032024
-function IPdedicated()
+//Obtener Datos
+function Obtener_Datos()
 {
     $command = 'GetClientsProducts';
-    $postData = [
-        'clientid' => '47', // Asegúrate de usar un ID de cliente válido
-
-    ];
-    //$adminUsername = 'jramirez'; // Opcional para WHMCS versión 7.2 y posterior
-
-    $results = localAPI($command, $postData,);
-
-    if ($results['result'] == 'success') {
-        // Recorre los productos del cliente
-        foreach ($results['products']['product'] as $product) {
-            // Verifica si existe un valor para dedicatedip
-            if (!empty($product['dedicatedip'])) {
-                echo "La dirección IP dedicada del producto " . $product['name'] . " es: " . $product['dedicatedip'] . "<br>";
-            }
-        }
-    } else {
-        echo "Hubo un error al obtener los productos: " . $results['message'];
-    }
+    //$command = 'GetOrders'; su Uso Inhabilita dedidatedIP
+    $postData = array(
+        //'id' => '2399', // ID del cliente  su Uso Inhabilita dedidatedIP
+        'clientid' => '47', // ID del cliente  
+    );
+    $results = localAPI($command, $postData);
+    print_r($results);
 }
-
-// IPdedicated
-IPdedicated();
-
-/////FIN 
+Obtener_Datos();
+//Fin Obtener Datos 
 
 
 // Función para realizar la solicitud cURL
