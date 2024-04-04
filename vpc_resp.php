@@ -25,6 +25,11 @@ function vpc_ConfigOptions()
         ),
     );
 }
+
+
+
+
+
 //Obtener DatosMOD
 function vpc_Obtener_Datos()
 {
@@ -33,26 +38,17 @@ function vpc_Obtener_Datos()
     ////
     $command = 'GetClientsProducts';
     $postData = array(
-        ////'clientid' => '47', // ID del cliente
         ////Se usa clientid
         'clientid' => $clientID,
     );
     $results = localAPI($command, $postData);
-
     if ($results['result'] == 'success') {
         $productos = $results['products']['product'];
         foreach ($productos as $producto) {
             if ($producto['orderid'] == '2399') { // Filtrar por número de pedido 2399
                 $nombreProducto = $producto['name'];
-                ////$ipDedicada = $producto['dedicatedip'];
                 $dedicatedip = $producto['dedicatedip'];
-                ////$dedicatedip = $producto['dedicatedip'];
                 $numeroPedido = $producto['orderid']; // Obtener el número de pedido
-                //// Imprime el nombre del producto, la IP dedicada y el número de pedido
-                ////echo "Nombre del producto: $nombreProducto\n";
-                //// echo "Dirección IP dedicada: $dedicatedip\n";
-                //// echo "Número de pedido: $numeroPedido\n";
-                //// Retorna la IP dedicada para usarla fuera de la función
                 return $dedicatedip;
             }
         }
@@ -60,7 +56,6 @@ function vpc_Obtener_Datos()
         echo "Error al obtener la información del producto: " . $results['message'] . "\n";
     }
 }
-////vpc_Obtener_Datos();
 // Función para realizar la solicitud cURL
 
 function vpc_ChangePassword($params)
