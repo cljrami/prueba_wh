@@ -26,10 +26,6 @@ function vpc_ConfigOptions()
     );
 }
 
-
-
-
-
 //Obtener DatosMOD
 function vpc_Obtener_Datos()
 {
@@ -40,6 +36,7 @@ function vpc_Obtener_Datos()
     $postData = array(
         ////Se usa clientid
         'clientid' => $clientID,
+
     );
     $results = localAPI($command, $postData);
     if ($results['result'] == 'success') {
@@ -56,7 +53,13 @@ function vpc_Obtener_Datos()
         echo "Error al obtener la información del producto: " . $results['message'] . "\n";
     }
 }
+
+
+
+
+
 // Función para realizar la solicitud cURL
+
 function vpc_ChangePassword($params)
 {
     //antes aca dedicatedIP

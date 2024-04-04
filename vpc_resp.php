@@ -26,11 +26,35 @@ function vpc_ConfigOptions()
     );
 }
 
-
-
-
-
 //Obtener DatosMOD
+//function vpc_Obtener_Datos()
+//{
+//// Se obtiene ClientID de Manera Automatica
+//  $clientID = $_SESSION['uid'];
+////
+//$command = 'GetClientsProducts';
+//$postData = array(
+//// Se usa clientid
+//  'clientid' => $clientID,       
+// );
+//$results = localAPI($command, $postData);   
+//if ($results['result'] == 'success') {
+//  $productos = $results['products']['product'];
+// foreach ($productos as $producto) {
+//   $clientID = $producto['clientid']; // Obtener clientid automáticamente
+// $nombreProducto = $producto['name'];
+// $dedicatedip = $producto['dedicatedip'];
+//$numeroPedido = $producto['orderid']; // Obtener el número de pedido automáticamente
+//return $dedicatedip;// Devuelve la IP dedicada encontrada
+//}
+
+// Si no encuentra ningún producto asociado al clientID actual
+//echo "No se encontró ningún producto asociado al clientID actual.\n";
+//} else {
+//  echo "Error al obtener la información del producto: " . $results['message'] . "\n";
+//}
+//}
+
 function vpc_Obtener_Datos()
 {
     ////Se obtiene ClientID de Manera Automatica
@@ -40,6 +64,7 @@ function vpc_Obtener_Datos()
     $postData = array(
         ////Se usa clientid
         'clientid' => $clientID,
+
     );
     $results = localAPI($command, $postData);
     if ($results['result'] == 'success') {
@@ -56,7 +81,13 @@ function vpc_Obtener_Datos()
         echo "Error al obtener la información del producto: " . $results['message'] . "\n";
     }
 }
+
+
+
+
+
 // Función para realizar la solicitud cURL
+
 function vpc_ChangePassword($params)
 {
     //antes aca dedicatedIP
