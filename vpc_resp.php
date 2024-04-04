@@ -31,7 +31,6 @@ function vpc_Obtener_Datos()
     ////Se obtiene ClientID de Manera Automatica
     $clientID = $_SESSION['uid'];
     ////
-
     $command = 'GetClientsProducts';
     $postData = array(
         ////'clientid' => '47', // ID del cliente
@@ -66,8 +65,9 @@ function vpc_Obtener_Datos()
 
 function vpc_ChangePassword($params)
 {
-    $dedicatedip = vpc_Obtener_Datos();
+    //antes aca dedicatedIP
     try {
+        $dedicatedip = vpc_Obtener_Datos();
         $postvars = array(
             'username' => $params['serverusername'],
             'passwd' => $params['serverpassword'],
