@@ -57,7 +57,6 @@ function vpc_Obtener_Datos()
     }
 }
 // Función para realizar la solicitud cURL
-
 function vpc_ChangePassword($params)
 {
     //antes aca dedicatedIP
