@@ -28,26 +28,32 @@ function vpc_ConfigOptions()
 //Obtener DatosMOD
 function vpc_Obtener_Datos()
 {
+    ////Se obtiene ClientID de Manera Automatica
+    $clientID = $_SESSION['uid'];
+    ////
+
     $command = 'GetClientsProducts';
     $postData = array(
-        'clientid' => '47', // ID del cliente
+        ////'clientid' => '47', // ID del cliente
+        ////Se usa clientid
+        'clientid' => $clientID,
     );
     $results = localAPI($command, $postData);
+
     if ($results['result'] == 'success') {
         $productos = $results['products']['product'];
         foreach ($productos as $producto) {
             if ($producto['orderid'] == '2399') { // Filtrar por número de pedido 2399
                 $nombreProducto = $producto['name'];
-                //$ipDedicada = $producto['dedicatedip'];
+                ////$ipDedicada = $producto['dedicatedip'];
                 $dedicatedip = $producto['dedicatedip'];
-                //$dedicatedip = $producto['dedicatedip'];
+                ////$dedicatedip = $producto['dedicatedip'];
                 $numeroPedido = $producto['orderid']; // Obtener el número de pedido
-
-                // Imprime el nombre del producto, la IP dedicada y el número de pedido
-                //echo "Nombre del producto: $nombreProducto\n";
-                // echo "Dirección IP dedicada: $dedicatedip\n";
-                // echo "Número de pedido: $numeroPedido\n";
-                // Retorna la IP dedicada para usarla fuera de la función
+                //// Imprime el nombre del producto, la IP dedicada y el número de pedido
+                ////echo "Nombre del producto: $nombreProducto\n";
+                //// echo "Dirección IP dedicada: $dedicatedip\n";
+                //// echo "Número de pedido: $numeroPedido\n";
+                //// Retorna la IP dedicada para usarla fuera de la función
                 return $dedicatedip;
             }
         }
@@ -55,7 +61,7 @@ function vpc_Obtener_Datos()
         echo "Error al obtener la información del producto: " . $results['message'] . "\n";
     }
 }
-//Obtener_Datos();
+////vpc_Obtener_Datos();
 // Función para realizar la solicitud cURL
 
 function vpc_ChangePassword($params)
@@ -83,12 +89,13 @@ function vpc_ChangePassword($params)
         curl_setopt($curl, CURLOPT_POST, true);
         curl_setopt($curl, CURLOPT_POSTFIELDS, $postdata);
         $response = curl_exec($curl);
-        if ($response <> true) {
-            throw new Exception(curl_error($curl));
-        } else {
-            return true;
+        $response = json_decode($response);
+        if (curl_error($curl)) {
+            throw new Exception('Unable to connect to the server:' . $url . ' - ' . curl_errno($curl) . ' - ' . curl_error($curl));
         }
         curl_close($curl);
+
+        return $response;
     } catch (Exception $e) {
         return $e->getMessage();
     }

@@ -71,10 +71,10 @@ function PowerShellCC($serverusername, $serverpassword, $domain, $user, $pass)
     $output = shell_exec($command);
 
     // Crear el mensaje de registro
-    $logMessage = date('Y-m-d H:i:s') . " - UsuarioControl: $serverusername - UsuarioCliente: $user - Resultado: $output\n";
+    //$logMessage = date('Y-m-d H:i:s') . " - UsuarioControl: $serverusername - UsuarioCliente: $user - Resultado: $output\n";
 
     // Guardar el mensaje en el archivo de registro debug_log.log
-    file_put_contents('debug_log.log', /*$logMessage*/ FILE_APPEND);
+    //file_put_contents('debug_log.log', $logMessage, FILE_APPEND);
 
     return $output;
 }
@@ -103,24 +103,21 @@ function procesar()
             if (trim($resultado) === '0') {
                 // Contraseña cambiada con éxito
                 // echo "La contraseña del usuario $user en la dirección IP $domain ha sido cambiada con éxito. La nueva contraseña es $pass ";
-                echo json_encode(array('result' => 'success'));
+                echo json_encode('success');
             } elseif (trim($resultado) === '-1') {
                 // Usuario no encontrado en la máquina remota
-                echo json_encode(array('result' => 'El usuario no existe'));
+                echo json_encode('El usuario no existe');
             } else {
                 // Error al ejecutar el script de PowerShell
-                echo json_encode(array('result' => 'Error al ejecutar el script de PowerShell'));
+                echo json_encode('Error al ejecutar el script de PowerShell');
             }
         } elseif ($pingStatus === -1) {
             // IP o puerto no disponibles
-            echo json_encode(array('result' => 'La IP o el puerto no se encuentra disponible'));
-        } else {
-            // Dirección IP encontrada
-            echo json_encode(array('result' => 'IP existe'));
+            echo json_encode('La IP o el puerto no se encuentra disponible');
         }
     } else {
         // Si no se recibieron todos los parámetros esperados, devolver un mensaje de error
-        echo json_encode(array('result' => 'No se recibieron datos'));
+        echo json_encode('Faltan parámetros en la llamada a la api...');
     }
     //TEST 22032024
     // Crear una cadena con el volcado de los datos utilizando var_export
@@ -130,16 +127,11 @@ function procesar()
     $logMessage .= "domain: " . var_export($domain, true) . "\n";
     $logMessage .= "user: " . var_export($user, true) . "\n";
     $logMessage .= "pass: " . var_export($pass, true) . "\n";
+
     //
     // Guardar el mensaje en el archivo de registro debug_log.log
     file_put_contents('debug_log.log', $logMessage, FILE_APPEND);
     //TEST 22032024
 }
-
-
-
-
-
-
 // Llamar a la función para procesar los datos recibidos por cURL
 procesar();
