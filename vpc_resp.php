@@ -51,6 +51,34 @@ function vpc_Obtener_Datos()
         echo "Error al obtener la información del producto: " . $results['message'] . "\n";
     }
 }
+// ////////////////////////////////////////////////////////////////////////////////
+// $command = 'GetClientsProducts';
+// $postData = array(
+//     'clientid' => $clientID, 
+//   // ID del cliente consultado
+// );
+
+// $results = localAPI($command, $postData,);
+
+// if ($results['result'] == 'success') {
+//     $products = $results['products']['product'];
+//     foreach ($products as $product) {
+//         $orderid = $product['orderid']; // Obtener el orderid del producto
+//         $dedicatedid = $product['dedicatedip']; // Obtener el dedicatedid del producto
+//       	$name = $product['name'];
+//         echo "Producto: $name  $orderid ($dedicatedid)\n\n\n";
+//     }
+// } else {
+//     echo "Error al consultar los productos del cliente: " . $results['message'] . "\n";
+// }
+// ////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
 
 //function vpc_Obtener_Datos()
 //{
