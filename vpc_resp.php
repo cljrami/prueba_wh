@@ -17,7 +17,7 @@ function vpc_MetaData() // Función que define los datos del módulo almacenado 
 }
 
 
-// Obtener el ID del cliente de la sesión
+// Obtiene el orderid /Producto/Servicios Via Session
 //function vpc_Obtener_Datos() {
 $userid = $_GET['userid'];
 $productselect = $_GET['productselect'];
@@ -35,10 +35,21 @@ if ($results['result'] == 'success') {
             $nombreProducto = $producto['name'];
             $dedicatedip = $producto['dedicatedip'];
             $numeroPedido = $producto['orderid'];
+            $hostname = $producto['serverhostname'];
+            $user = $producto['username'];
+            $pass =  $producto['password'];
+            $ordernumber = $producto['ordernumber'];
+            $regdate =  $producto['regdate'];
             echo "Número de pedido: $numeroPedido\n";
             echo "Dirección IP dedicada: $dedicatedip\n";
-            echo "Nombre Prodcucto: $nombreProducto\n";
-            break; // Salir del bucle una vez encontrado el producto
+            echo "Usuario :$user\n";
+            echo "Password :$pass\n";
+            echo "Server :$hostname\n";
+            echo "Nombre Producto:$nombreProducto\n";
+            echo "Fecha Inicio: $regdate\n";
+            echo "Numero de orden: $ordernumber";
+            return $dedicatedip;
+            //  break; // Salir del bucle una vez encontrado el producto
 
         }
     }
@@ -48,7 +59,6 @@ if ($results['result'] == 'success') {
 
 //}
 
-///////
 
 function vpc_ChangePassword($params)
 {
