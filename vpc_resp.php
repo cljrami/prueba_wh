@@ -2,7 +2,7 @@
 if (!defined("WHMCS")) {
     die("This file cannot be accessed directly");
 }
-
+//use WHMCS\ClientArea;
 use WHMCS\Database\Capsule;
 
 function vpc_MetaData() // Función que define los datos del módulo almacenado en las opciones generales
@@ -15,102 +15,45 @@ function vpc_MetaData() // Función que define los datos del módulo almacenado 
         'DefaultSSLPort' => '5986',
     );
 }
-// Función para configurar las opciones del módulo
-function vpc_ConfigOptions()
-{
-    return array(
-        'FriendlyName' => array(
-            'Type' => 'System',
-            'Value' => 'vpc_Module',
-        ),
-    );
-}
 
-//Obtener DatosMOD
-function vpc_Obtener_Datos()
-{
-    ////Se obtiene ClientID de Manera Automatica
-    $clientID = $_SESSION['uid'];
-    ////
-    $command = 'GetClientsProducts';
-    $postData = array(
-        'clientid' => $clientID,
-    );
-    $results = localAPI($command, $postData);
-    if ($results['result'] == 'success') {
-        $productos = $results['products']['product'];
-        foreach ($productos as $producto) {
-            if ($producto['orderid'] == '2399') { // Filtrar por número de pedido 2399
-                $nombreProducto = $producto['name'];
-                $dedicatedip = $producto['dedicatedip'];
-                $numeroPedido = $producto['orderid']; // Se usa orderid
-                return $dedicatedip;
-            }
+
+// Obtener el ID del cliente de la sesión
+//function vpc_Obtener_Datos() {
+$userid = $_GET['userid'];
+$productselect = $_GET['productselect'];
+$command = 'GetClientsProducts';
+$postData = array(
+    'clientid' => $userid,
+);
+
+$results = localAPI($command, $postData);
+if ($results['result'] == 'success') {
+    $productos = $results['products']['product'];
+    foreach ($productos as $producto) {
+        // Verificar si el producto actual pertenece al cliente que se está consultando
+        if ($producto['id'] == $productselect) {
+            $nombreProducto = $producto['name'];
+            $dedicatedip = $producto['dedicatedip'];
+            $numeroPedido = $producto['orderid'];
+            echo "Número de pedido: $numeroPedido\n";
+            echo "Dirección IP dedicada: $dedicatedip\n";
+            echo "Nombre Prodcucto: $nombreProducto\n";
+            break; // Salir del bucle una vez encontrado el producto
+
         }
-    } else {
-        echo "Error al obtener la información del producto: " . $results['message'] . "\n";
     }
+} else {
+    echo "Error al consultar los productos del cliente: " . $results['message'] . "\n";
 }
-// ////////////////////////////////////////////////////////////////////////////////
-// $command = 'GetClientsProducts';
-// $postData = array(
-//     'clientid' => $clientID, 
-//   // ID del cliente consultado
-// );
 
-// $results = localAPI($command, $postData,);
+//}
 
-// if ($results['result'] == 'success') {
-//     $products = $results['products']['product'];
-//     foreach ($products as $product) {
-//         $orderid = $product['orderid']; // Obtener el orderid del producto
-//         $dedicatedid = $product['dedicatedip']; // Obtener el dedicatedid del producto
-//       	$name = $product['name'];
-//         echo "Producto: $name  $orderid ($dedicatedid)\n\n\n";
-//     }
-// } else {
-//     echo "Error al consultar los productos del cliente: " . $results['message'] . "\n";
-// }
-// ////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-//function vpc_Obtener_Datos()
-//{
-////Se obtiene ClientID de Manera Automatica
-//   $clientID = $_SESSION['uid'];
-////
-//  $command = 'GetClientsProducts';
-//    $postData = array(
-//      'clientid' => $clientID,
-//    );
-//    $results = localAPI($command, $postData);
-//    if ($results['result'] == 'success') {
-//        $productos = $results['products']['product'];
-//        foreach ($productos as $producto) {
-//            if ($producto['orderid'] == '2399') { // Filtrar por número de pedido 2399
-//                $nombreProducto = $producto['name'];
-//                $dedicatedip = $producto['dedicatedip'];
-//                $numeroPedido = $producto['orderid']; // Se usa orderid
-//                return $dedicatedip;              
-//      }
-//  }
-// 	} else {
-//      echo "Error al obtener la información del producto: " . $results['message'] . "\n";
-// }
-//
-// Función para realizar la solicitud cURL
+///////
 
 function vpc_ChangePassword($params)
 {
-
+    //
     try {
-
         $dedicatedip = vpc_Obtener_Datos();
         $postvars = array(
             'username' => $params['serverusername'],
@@ -121,6 +64,7 @@ function vpc_ChangePassword($params)
         );
         $postdata = http_build_query($postvars);
         $url = 'https://vps06.xhost.cl/prueba_whmcs/post.php';
+
         $curl = curl_init();
         if (!$curl) {
             throw new Exception('No se pudo inicializar cURL');
