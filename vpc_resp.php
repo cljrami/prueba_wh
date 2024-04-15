@@ -18,57 +18,59 @@ function vpc_MetaData() // Función que define los datos del módulo almacenado 
 
 
 // Obtiene el orderid /Producto/Servicios Via Session
-//function vpc_Obtener_Datos() {
-$userid = $_GET['userid'];
-$productselect = $_GET['productselect'];
-$command = 'GetClientsProducts';
-$postData = array(
-    'clientid' => $userid,
-);
+function vpc_Obtener_Datos()
+{
+    $userid = $_GET['userid']; // Asume que los valores vienen de la URL
+    $productselect = $_GET['productselect'];
+    $command = 'GetClientsProducts';
+    $postData = array(
+        'clientid' => $userid,
+    );
 
-$results = localAPI($command, $postData);
-if ($results['result'] == 'success') {
-    $productos = $results['products']['product'];
-    foreach ($productos as $producto) {
-        // Verificar si el producto actual pertenece al cliente que se está consultando
-        if ($producto['id'] == $productselect) {
-            $nombreProducto = $producto['name'];
-            $dedicatedip = $producto['dedicatedip'];
-            $numeroPedido = $producto['orderid'];
-            $hostname = $producto['serverhostname'];
-            $user = $producto['username'];
-            $pass =  $producto['password'];
-            $ordernumber = $producto['ordernumber'];
-            $regdate =  $producto['regdate'];
-            echo "Número de pedido: $numeroPedido\n";
-            echo "Dirección IP dedicada: $dedicatedip\n";
-            echo "Usuario :$user\n";
-            echo "Password :$pass\n";
-            echo "Server :$hostname\n";
-            echo "Nombre Producto:$nombreProducto\n";
-            echo "Fecha Inicio: $regdate\n";
-            echo "Numero de orden: $ordernumber";
-            return $dedicatedip;
-            //  break; // Salir del bucle una vez encontrado el producto
+    $results = localAPI($command, $postData);
+    if ($results['result'] == 'success') {
+        foreach ($results['products']['product'] as $producto) {
+            if ($producto['id'] == $productselect) {
+                $nombreProducto = $producto['name'];
+                $dedicatedip = $producto['dedicatedip'];
+                $numeroPedido = $producto['orderid'];
+                $hostname = $producto['serverhostname'];
+                $user = $producto['username'];
+                $pass =  $producto['password'];
+                $ordernumber = $producto['ordernumber'];
+                $regdate =  $producto['regdate'];
+                echo "Número de pedido: $numeroPedido\n";
+                echo "Dirección IP dedicada: $dedicatedip\n";
+                echo "Usuario :$user\n";
+                echo "Password :$pass\n";
+                echo "Server :$hostname\n";
+                echo "Nombre Producto:$nombreProducto\n";
+                echo "Fecha Inicio: $regdate\n";
+                echo "Numero de orden: $ordernumber";
+                //global $dedicatedip;
+                //  break; // Salir del bucle una vez encontrado el producto
 
+            }
         }
+    } else {
+        echo "Error al consultar los productos del cliente: " . $results['message'] . "\n";
     }
-} else {
-    echo "Error al consultar los productos del cliente: " . $results['message'] . "\n";
 }
 
-//}
 
 
+
+//////Enbvio de Datos a Control
 function vpc_ChangePassword($params)
 {
-    //
     try {
         $dedicatedip = vpc_Obtener_Datos();
+        global $dedicatedip;
         $postvars = array(
             'username' => $params['serverusername'],
             'passwd' => $params['serverpassword'],
             'domain' => $dedicatedip,
+            //          'domain' => $dedicated['dedicatedip'],
             'user' => $params['username'],
             'pass' => $params['password']
         );
@@ -98,6 +100,7 @@ function vpc_ChangePassword($params)
         return $e->getMessage();
     }
 }
+
 function vpc_CreateAccount($params)
 {
     return true;
