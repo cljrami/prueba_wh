@@ -1,3 +1,4 @@
+<!-- RESPALDO MODULO VPC PARA SER USANDO EN WHCMS-->
 <?php
 if (!defined("WHMCS")) {
     die("This file cannot be accessed directly");
