@@ -1,4 +1,5 @@
-<!-- MODULO VPC PARA SER USANDO EN WHCMS-->
+
+
 <?php
 if (!defined("WHMCS")) {
     die("This file cannot be accessed directly");
@@ -57,6 +58,10 @@ function vpc_Obtener_Datos()
         echo "Error al consultar los productos del cliente: " . $results['message'] . "\n";
     }
 }
+
+
+
+
 //////Enbvio de Datos a Control
 function vpc_ChangePassword($params)
 {

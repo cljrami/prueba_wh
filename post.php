@@ -1,5 +1,3 @@
-<!-- MODULO CHANGEPASSWORD  PARA SER USANDO EN CONTROL-->
-
 <?php
 ini_set("date.timezone", "America/Santiago");
 // Función para obtener la IP remota del cliente
